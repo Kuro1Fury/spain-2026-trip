@@ -19,13 +19,12 @@ test("renders the finished itinerary", async () => {
   const html = await readFile(new URL("index.html", root), "utf8");
   assert.match(html, /España 2026/);
   assert.match(html, /西班牙国庆行程/);
+  assert.match(html, /14 天总行程/);
+  assert.match(html, /DAY <!-- -->01/);
+  assert.match(html, /09\.26/);
+  assert.match(html, /10\.09/);
   assert.match(html, /巴塞罗那/);
   assert.match(html, /马德里/);
-  assert.match(html, /CA1566/);
-  assert.match(html, /NH Barcelona Eixample/);
-  assert.match(html, /Faborit Casa Amatller/);
-  assert.match(html, /Palco Central P7/);
-  assert.match(html, /Guernica/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
   await access(new URL("_next/static/", root));
   await assert.rejects(access(new URL("spain-2026-trip/_next/", root)));
@@ -33,6 +32,12 @@ test("renders the finished itinerary", async () => {
 
 test("public build contains all quick links but no identity data", async () => {
   const output = (await readTree(root)).join("\n");
+  assert.match(output, /完整攻略/);
+  assert.match(output, /CA1566/);
+  assert.match(output, /NH Barcelona Eixample/);
+  assert.match(output, /Faborit Casa Amatller/);
+  assert.match(output, /Palco Central P7/);
+  assert.match(output, /Guernica/);
   assert.match(output, /drive\.google\.com/);
   assert.match(output, /1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/);
   assert.match(output, /10DXUPjXP4_xF7f-HbUhxmgaZGlPucI1E/);
