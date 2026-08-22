@@ -121,6 +121,7 @@ button { color: inherit; }
 .row-actions { display: flex; gap: 14px; align-items: center; }
 .row-actions a { background: var(--ink); color: var(--cream); text-decoration: none; padding: 8px 14px; border-radius: 999px; font-size: 13px; font-weight: 700; }
 .quiet-button { border: 0; background: transparent; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; font-size: 13px; color: rgba(24,35,31,.65); }
+.tbd-label { color: rgba(24,35,31,.42); font-size: 12px; font-weight: 800; letter-spacing: .12em; }
 .link-editor { display: flex; align-items: center; gap: 8px; min-width: min(560px, 60%); }
 .link-editor input { flex: 1; min-width: 180px; border: 1px solid var(--line); background: white; padding: 10px 12px; border-radius: 8px; outline: none; }
 .link-editor input:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(31,103,84,.12); }

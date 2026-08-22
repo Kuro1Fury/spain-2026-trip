@@ -26,9 +26,11 @@ test("renders the finished itinerary", async () => {
   await assert.rejects(access(new URL("spain-2026-trip/_next/", root)));
 });
 
-test("public build contains no private ticket URLs or identity data", async () => {
+test("public build contains all quick links but no identity data", async () => {
   const output = (await readTree(root)).join("\n");
-  assert.doesNotMatch(output, /drive\.google\.com/i);
+  assert.match(output, /drive\.google\.com/);
+  assert.match(output, /1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/);
+  assert.match(output, /10DXUPjXP4_xF7f-HbUhxmgaZGlPucI1E/);
   assert.doesNotMatch(output, /notion\.so|app\.notion\.com/i);
   assert.doesNotMatch(output, /(?:passport|身份证|护照号|booking reference|PNR)/i);
 });

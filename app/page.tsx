@@ -1,10 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useState } from "react";
 
 type Tab = "itinerary" | "tickets" | "transit";
-type PrivateLinks = Record<string, string>;
-
 const itinerary = [
   { date: "09.28", city: "巴塞罗那", title: "现代主义建筑日", detail: "巴特罗之家 · 米拉之家", tone: "coral" },
   { date: "09.29", city: "巴塞罗那", title: "高迪的城市花园", detail: "奎尔公园", tone: "green" },
@@ -20,25 +18,25 @@ const itinerary = [
 ];
 
 const ticketItems = [
-  "0928 巴特罗之家",
-  "0928 米拉之家",
-  "0929 奎尔公园",
-  "0930 蒙塞拉特",
-  "1001 圣家堂",
-  "1002 晚间表演",
-  "1003 塞维利亚主教座堂",
-  "1004 科尔多瓦清真寺",
-  "1005 塞维利亚王宫",
-  "1007 马德里皇宫",
-  "1008 普拉多博物馆",
-  "1008 索菲亚王后艺术中心",
+  { label: "0928 巴特罗之家", url: "https://drive.google.com/file/d/1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/view?usp=sharing" },
+  { label: "0928 米拉之家", url: "https://drive.google.com/file/d/13TuoyA4Whx7SJqWnbhC3hX1rSQjH_2_s/view?usp=sharing" },
+  { label: "0929 奎尔公园", url: "https://drive.google.com/file/d/1HYpOoKO56BQF7ln52BMacaQc0TVsOkCh/view?usp=sharing" },
+  { label: "0930 蒙塞拉特" },
+  { label: "1001 圣家堂", url: "https://drive.google.com/file/d/10YH6D77-85DPSdvKnENjvTXiNY-9NCTv/view?usp=sharing" },
+  { label: "1002 晚间表演", url: "https://drive.google.com/file/d/1AGo-MESzIqx--Sdo8e0HaQOiSs8s7uxE/view?usp=sharing" },
+  { label: "1003 塞维利亚主教座堂", url: "https://drive.google.com/file/d/1IU_tOV2Es4oV5vBCEmmSyoRWXzJKUqHX/view?usp=sharing" },
+  { label: "1004 科尔多瓦清真寺" },
+  { label: "1005 塞维利亚王宫", url: "https://drive.google.com/file/d/1_8qFpLwB46APp8EMSuxWHxfPUL5Uc4Gp/view?usp=sharing" },
+  { label: "1007 马德里皇宫", url: "https://drive.google.com/file/d/1cT7k_MUtSCCgiLSXUQMblF8A4AwkLkTO/view?usp=sharing" },
+  { label: "1008 普拉多博物馆", url: "https://drive.google.com/file/d/1Rmbw8OiLL3KMY3jOQlg-vCrtLGOi7xbs/view?usp=sharing" },
+  { label: "1008 索菲亚王后艺术中心", url: "https://drive.google.com/file/d/1EbNRK5VA1GBKCmjKUViKCy1Dt4T7zq5B/view?usp=sharing" },
 ];
 
 const transitItems = [
-  "巴塞罗那 → 塞维利亚航班",
-  "科尔多瓦电子车票",
-  "塞维利亚 → 马德里车票",
-  "往返国际航班",
+  { label: "巴塞罗那 → 塞维利亚航班", url: "https://drive.google.com/file/d/11BGMvU3ugx-aCqkniIaoWjzbgmQ81D45/view?usp=sharing" },
+  { label: "科尔多瓦电子车票", url: "https://drive.google.com/file/d/1vHTHNFYFcmmTFn5MLUruEIs0RtzcdWUB/view?usp=sharing" },
+  { label: "塞维利亚 → 马德里车票", url: "https://drive.google.com/file/d/1d5ePe36ktZnEUG0vwUoi-epRZIJ1oj-M/view?usp=sharing" },
+  { label: "往返国际航班", url: "https://drive.google.com/file/d/10DXUPjXP4_xF7f-HbUhxmgaZGlPucI1E/view?usp=sharing" },
 ];
 
 const tabs: Array<{ id: Tab; label: string; icon: string }> = [
@@ -47,67 +45,24 @@ const tabs: Array<{ id: Tab; label: string; icon: string }> = [
   { id: "transit", label: "城际交通", icon: "交通" },
 ];
 
-function isSafeUrl(value: string) {
-  try {
-    const url = new URL(value);
-    return url.protocol === "https:";
-  } catch {
-    return false;
-  }
-}
-
-function PrivateLinkList({ items, links, onChange }: { items: string[]; links: PrivateLinks; onChange: (next: PrivateLinks) => void }) {
-  const [editing, setEditing] = useState<string | null>(null);
-  const [draft, setDraft] = useState("");
-
-  function save(item: string) {
-    const value = draft.trim();
-    if (value && !isSafeUrl(value)) return;
-    const next = { ...links };
-    if (value) next[item] = value;
-    else delete next[item];
-    onChange(next);
-    setEditing(null);
-    setDraft("");
-  }
-
+function QuickLinkList({ items }: { items: Array<{ label: string; url?: string }> }) {
   return (
     <div className="private-list">
       {items.map((item) => {
-        const hasLink = Boolean(links[item]);
+        const hasLink = Boolean(item.url);
         return (
-          <div className="private-row" key={item}>
+          <div className="private-row" key={item.label}>
             <div className="private-name">
               <span className={`status-dot ${hasLink ? "ready" : ""}`} aria-hidden="true" />
-              <span>{item}</span>
+              <span>{item.label}</span>
             </div>
-            {editing === item ? (
-              <div className="link-editor">
-                <input
-                  autoFocus
-                  aria-label={`${item}的私人链接`}
-                  placeholder="粘贴 https:// 私人链接"
-                  value={draft}
-                  onChange={(event) => setDraft(event.target.value)}
-                  onKeyDown={(event) => event.key === "Enter" && save(item)}
-                />
-                <button onClick={() => save(item)}>保存</button>
-                <button className="ghost" onClick={() => setEditing(null)}>取消</button>
-              </div>
-            ) : (
-              <div className="row-actions">
-                {hasLink && <a href={links[item]} target="_blank" rel="noreferrer">打开</a>}
-                <button
-                  className="quiet-button"
-                  onClick={() => {
-                    setEditing(item);
-                    setDraft(links[item] ?? "");
-                  }}
-                >
-                  {hasLink ? "编辑" : "添加链接"}
-                </button>
-              </div>
-            )}
+            <div className="row-actions">
+              {item.url ? (
+                <a href={item.url} target="_blank" rel="noreferrer">打开文件 ↗</a>
+              ) : (
+                <span className="tbd-label">TBD</span>
+              )}
+            </div>
           </div>
         );
       })}
@@ -117,23 +72,6 @@ function PrivateLinkList({ items, links, onChange }: { items: string[]; links: P
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<Tab>("itinerary");
-  const [links, setLinks] = useState<PrivateLinks>({});
-  const [privacyOpen, setPrivacyOpen] = useState(false);
-  const configuredCount = useMemo(() => Object.values(links).filter(Boolean).length, [links]);
-
-  useEffect(() => {
-    try {
-      const saved = window.localStorage.getItem("spain-2026-private-links");
-      if (saved) setLinks(JSON.parse(saved));
-    } catch {
-      // Corrupt or unavailable local storage should never block the itinerary.
-    }
-  }, []);
-
-  function updateLinks(next: PrivateLinks) {
-    setLinks(next);
-    window.localStorage.setItem("spain-2026-private-links", JSON.stringify(next));
-  }
 
   return (
     <main>
@@ -143,10 +81,10 @@ export default function Home() {
             <span className="brand-mark">ES</span>
             <span>España 2026</span>
           </a>
-          <button className="privacy-button" onClick={() => setPrivacyOpen(!privacyOpen)} aria-expanded={privacyOpen}>
+          <div className="privacy-button">
             <span className="lock" aria-hidden="true">●</span>
-            私人链接 {configuredCount > 0 && <b>{configuredCount}</b>}
-          </button>
+            快速链接 <b>14</b>
+          </div>
         </nav>
 
         <div className="hero-copy" id="top">
@@ -160,17 +98,6 @@ export default function Home() {
         <div className="sun-shape" aria-hidden="true" />
         <div className="tile-shape" aria-hidden="true" />
       </header>
-
-      {privacyOpen && (
-        <section className="privacy-panel" aria-label="隐私说明">
-          <div>
-            <p className="mini-label">PRIVACY FIRST</p>
-            <h2>票据链接只留在你的设备上</h2>
-            <p>私人 Drive 链接不会写入这个公开网站或 GitHub 仓库。点击“添加链接”后，地址只保存在当前浏览器的本地存储里；更换设备时需要重新添加。</p>
-          </div>
-          <button className="clear-button" onClick={() => updateLinks({})} disabled={configuredCount === 0}>清除本机全部链接</button>
-        </section>
-      )}
 
       <div className="tab-wrap">
         <div className="tabs" role="tablist" aria-label="行程内容">
@@ -220,9 +147,9 @@ export default function Home() {
         <section className="content links-section" role="tabpanel">
           <div className="section-heading">
             <div><p className="mini-label">PRIVATE VAULT</p><h2>景点门票</h2></div>
-            <p>项目名称可以公开，实际票据地址仅保存在本机。TBD 项目也可以先留空。</p>
+            <p>点击后直接打开对应的 Google Drive 文件；两个尚未确认的项目暂时标记为 TBD。</p>
           </div>
-          <PrivateLinkList items={ticketItems} links={links} onChange={updateLinks} />
+          <QuickLinkList items={ticketItems} />
         </section>
       )}
 
@@ -230,9 +157,9 @@ export default function Home() {
         <section className="content links-section" role="tabpanel">
           <div className="section-heading">
             <div><p className="mini-label">ON THE MOVE</p><h2>城际交通</h2></div>
-            <p>航班号、乘客姓名、订单号与二维码均不会出现在公开页面。</p>
+            <p>点击即可打开对应的航班或铁路电子文件。</p>
           </div>
-          <PrivateLinkList items={transitItems} links={links} onChange={updateLinks} />
+          <QuickLinkList items={transitItems} />
         </section>
       )}
 
