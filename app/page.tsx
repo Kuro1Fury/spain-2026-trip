@@ -2,20 +2,14 @@
 
 import { marked } from "marked";
 import { useState } from "react";
+import { extractSection } from "../lib/itinerary-sections.mjs";
 import itineraryMarkdown from "../content/itinerary.md?raw";
 
 type Tab = "summary" | "guide" | "tickets" | "transit" | "documents";
 type Tone = "coral" | "green" | "sand" | "blue" | "gold";
 
 function section(start: string, end?: string) {
-  const startToken = `\n${start}\n`;
-  const matchedStart = itineraryMarkdown.indexOf(startToken);
-  const startIndex = matchedStart >= 0 ? matchedStart + 1 : itineraryMarkdown.startsWith(`${start}\n`) ? 0 : -1;
-  if (startIndex < 0) return "";
-  const endToken = end ? `\n${end}\n` : "";
-  const matchedEnd = end ? itineraryMarkdown.indexOf(endToken, startIndex + start.length) : -1;
-  const endIndex = matchedEnd >= 0 ? matchedEnd + 1 : -1;
-  return itineraryMarkdown.slice(startIndex, endIndex < 0 ? undefined : endIndex).trim();
+  return extractSection(itineraryMarkdown, start, end);
 }
 
 function renderMarkdown(source: string) {
@@ -139,15 +133,63 @@ const tabs: Array<{ id: Tab; label: string; icon: string }> = [
   { id: "documents", label: "重要文件", icon: "文件" },
 ];
 
+const outline = [
+  {
+    label: "全程总控",
+    links: [
+      ["overview", "行程审计", "# 0｜总行程审计结论"],
+      ["transport", "全程交通", "# 1｜全程交通 Master Table"],
+      ["hotels", "住宿", "# 2｜住宿 Master Table"],
+      ["bookings", "核心预约", "# 3｜全程核心预约 Master Table"],
+      ["luggage", "主行李方案", "# 4｜主行李方案"],
+      ["moving-days", "移动日建议", "# 5｜移动日建议"],
+      ["beijing-transfer", "北京中转", "# 6｜北京中转专项"],
+      ["checklist", "出发 Checklist", "# 8｜全程出发前总 Checklist"],
+    ],
+  },
+  {
+    label: "Barcelona",
+    links: [
+      ["barcelona", "城市总览", "# PART A｜Barcelona 详细攻略"],
+      ["day-0927", "9/27 抵达日", "# 9/27｜抵达日"],
+      ["day-0928", "9/28 高迪住宅", "# 9/28｜高迪住宅日"],
+      ["day-0929", "9/29 Park Güell", "# 9/29｜Park Güell"],
+      ["day-0930", "9/30 Montserrat", "# 9/30｜Montserrat"],
+      ["day-1001", "10/1 圣家堂", "# 10/1｜Sagrada Família"],
+      ["day-1002-bcn", "10/2 前往 Sevilla", "# 10/2｜Barcelona → Sevilla"],
+    ],
+  },
+  {
+    label: "Sevilla / Córdoba",
+    links: [
+      ["sevilla", "城市总览", "# PART B｜Sevilla / Córdoba 详细攻略"],
+      ["day-1002-svq", "10/2 抵达与 Bienal", "# 10/2｜抵达 Sevilla"],
+      ["day-1003", "10/3 大教堂", "# 10/3｜Cathedral"],
+      ["day-1004", "10/4 Córdoba", "# 10/4｜Córdoba 一日游"],
+      ["day-1005", "10/5 王宫", "# 10/5｜Plaza de España"],
+      ["day-1006-svq", "10/6 前往 Madrid", "# 10/6｜Sevilla → Madrid"],
+    ],
+  },
+  {
+    label: "Madrid",
+    links: [
+      ["madrid", "城市总览", "# PART C｜Madrid 详细攻略"],
+      ["day-1006-mad", "10/6 老城", "# 10/6｜抵达 Madrid"],
+      ["day-1007", "10/7 Royal Madrid", "# 10/7｜Royal Madrid"],
+      ["day-1008", "10/8 艺术日", "# 10/8｜Prado"],
+      ["day-1008-night", "10/8 最后几小时", "# 10/8 晚上｜"],
+    ],
+  },
+] as const;
+
+const anchorByHeading = new Map(outline.flatMap((group) => group.links.map(([id, , heading]) => [heading, id])));
 const navigableMarkdown = itineraryMarkdown
-  .replace("# 0｜总行程审计结论", '<span id="overview"></span>\n# 0｜总行程审计结论')
-  .replace("# 1｜全程交通 Master Table", '<span id="transport"></span>\n# 1｜全程交通 Master Table')
-  .replace("# 2｜住宿 Master Table", '<span id="hotels"></span>\n# 2｜住宿 Master Table')
-  .replace("# 3｜全程核心预约 Master Table", '<span id="bookings"></span>\n# 3｜全程核心预约 Master Table')
-  .replace("# 8｜全程出发前总 Checklist", '<span id="checklist"></span>\n# 8｜全程出发前总 Checklist')
-  .replace("# PART A｜Barcelona 详细攻略", '<span id="barcelona"></span>\n# PART A｜Barcelona 详细攻略')
-  .replace("# PART B｜Sevilla / Córdoba 详细攻略", '<span id="sevilla"></span>\n# PART B｜Sevilla / Córdoba 详细攻略')
-  .replace("# PART C｜Madrid 详细攻略", '<span id="madrid"></span>\n# PART C｜Madrid 详细攻略');
+  .split("\n")
+  .flatMap((line) => {
+    const match = [...anchorByHeading.entries()].find(([heading]) => line.startsWith(heading));
+    return match ? [`<span id="${match[1]}"></span>`, line] : [line];
+  })
+  .join("\n");
 
 const itineraryHtml = renderMarkdown(navigableMarkdown);
 
@@ -238,11 +280,26 @@ export default function Home() {
 
       {activeTab === "guide" && (
         <section className="guide-shell" role="tabpanel">
-          <nav className="guide-jumpnav" aria-label="攻略章节跳转">
-            <a href="#overview">总控</a><a href="#transport">交通</a><a href="#hotels">住宿</a><a href="#bookings">预约</a>
-            <a href="#checklist">Checklist</a><a href="#barcelona">Barcelona</a><a href="#sevilla">Sevilla / Córdoba</a><a href="#madrid">Madrid</a>
-          </nav>
-          <article className="markdown-content" dangerouslySetInnerHTML={{ __html: itineraryHtml }} />
+          <details className="guide-outline-mobile">
+            <summary>打开攻略目录</summary>
+            <nav aria-label="移动端攻略目录">
+              {outline.map((group) => <div key={group.label}><strong>{group.label}</strong>{group.links.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</div>)}
+            </nav>
+          </details>
+          <div className="guide-layout">
+            <aside className="guide-outline">
+              <p>文档大纲</p>
+              <nav aria-label="完整攻略大纲">
+                {outline.map((group) => (
+                  <div className="outline-group" key={group.label}>
+                    <strong>{group.label}</strong>
+                    {group.links.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}
+                  </div>
+                ))}
+              </nav>
+            </aside>
+            <article className="markdown-content guide-document" dangerouslySetInnerHTML={{ __html: itineraryHtml }} />
+          </div>
           <a className="back-to-top" href="#top">回到顶部 ↑</a>
         </section>
       )}

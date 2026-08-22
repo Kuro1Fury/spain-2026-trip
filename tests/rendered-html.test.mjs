@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { access, readFile, readdir } from "node:fs/promises";
 import test from "node:test";
+import { extractSection } from "../lib/itinerary-sections.mjs";
 
 const root = new URL("../dist/client/", import.meta.url);
 
@@ -33,6 +34,8 @@ test("renders the finished itinerary", async () => {
 test("public build contains all quick links but no identity data", async () => {
   const output = (await readTree(root)).join("\n");
   assert.match(output, /完整攻略/);
+  assert.match(output, /文档大纲/);
+  assert.match(output, /打开攻略目录/);
   assert.match(output, /CA1566/);
   assert.match(output, /NH Barcelona Eixample/);
   assert.match(output, /Faborit Casa Amatller/);
@@ -44,4 +47,20 @@ test("public build contains all quick links but no identity data", async () => {
   assert.match(output, /12ka8nWZ1WYeseKwx0Ay4JXGjOFhCU0ty/);
   assert.doesNotMatch(output, /notion\.so|app\.notion\.com/i);
   assert.doesNotMatch(output, /Zihe Ji|Allan Ji/i);
+});
+
+test("daily sections stop at the next day", async () => {
+  const markdown = await readFile(new URL("../content/itinerary.md", import.meta.url), "utf8");
+
+  const barcelonaArrival = extractSection(markdown, "# 9/27｜抵达日", "# 9/28｜高迪住宅日");
+  assert.match(barcelonaArrival, /Gothic Quarter/);
+  assert.doesNotMatch(barcelonaArrival, /Casa Batlló · Platinum/);
+
+  const cathedralDay = extractSection(markdown, "# 10/3｜Cathedral", "# 10/4｜Córdoba 一日游");
+  assert.match(cathedralDay, /Sevilla Cathedral \+ Giralda/);
+  assert.doesNotMatch(cathedralDay, /AVE 03943/);
+
+  const royalMadrid = extractSection(markdown, "# 10/7｜Royal Madrid", "# 10/8｜Prado");
+  assert.match(royalMadrid, /Royal Palace of Madrid/);
+  assert.doesNotMatch(royalMadrid, /Museo del Prado/);
 });
