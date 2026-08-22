@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFile, readdir } from "node:fs/promises";
+import { access, readFile, readdir } from "node:fs/promises";
 import test from "node:test";
 
 const root = new URL("../dist/client/", import.meta.url);
@@ -22,6 +22,8 @@ test("renders the finished itinerary", async () => {
   assert.match(html, /巴塞罗那/);
   assert.match(html, /马德里/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape/);
+  await access(new URL("_next/static/", root));
+  await assert.rejects(access(new URL("spain-2026-trip/_next/", root)));
 });
 
 test("public build contains no private ticket URLs or identity data", async () => {
