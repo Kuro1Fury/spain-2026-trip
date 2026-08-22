@@ -1,21 +1,10 @@
 "use client";
 
+import { marked } from "marked";
 import { useState } from "react";
+import itineraryMarkdown from "../content/itinerary.md?raw";
 
-type Tab = "itinerary" | "tickets" | "transit";
-const itinerary = [
-  { date: "09.28", city: "巴塞罗那", title: "现代主义建筑日", detail: "巴特罗之家 · 米拉之家", tone: "coral" },
-  { date: "09.29", city: "巴塞罗那", title: "高迪的城市花园", detail: "奎尔公园", tone: "green" },
-  { date: "09.30", city: "蒙塞拉特", title: "山间一日", detail: "具体安排待确认", tone: "sand" },
-  { date: "10.01", city: "巴塞罗那", title: "圣家堂", detail: "高迪建筑之旅", tone: "blue" },
-  { date: "10.02", city: "巴塞罗那 → 塞维利亚", title: "南下安达卢西亚", detail: "航班 · 晚间表演", tone: "coral" },
-  { date: "10.03", city: "塞维利亚", title: "老城与主教座堂", detail: "塞维利亚主教座堂", tone: "gold" },
-  { date: "10.04", city: "科尔多瓦", title: "白色古城一日", detail: "科尔多瓦清真寺", tone: "sand" },
-  { date: "10.05", city: "塞维利亚", title: "王宫漫步", detail: "塞维利亚王宫", tone: "green" },
-  { date: "10.06", city: "塞维利亚 → 马德里", title: "前往首都", detail: "城际交通", tone: "blue" },
-  { date: "10.07", city: "马德里", title: "王室建筑日", detail: "马德里皇宫", tone: "coral" },
-  { date: "10.08", city: "马德里", title: "艺术金三角", detail: "普拉多博物馆 · 索菲亚王后艺术中心", tone: "gold" },
-];
+type Tab = "itinerary" | "tickets" | "transit" | "documents";
 
 const ticketItems = [
   { label: "0928 巴特罗之家", url: "https://drive.google.com/file/d/1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/view?usp=sharing" },
@@ -39,33 +28,48 @@ const transitItems = [
   { label: "往返国际航班", url: "https://drive.google.com/file/d/10DXUPjXP4_xF7f-HbUhxmgaZGlPucI1E/view?usp=sharing" },
 ];
 
+const documentItems = [
+  { label: "旅行保险保单", url: "https://drive.google.com/file/d/12ka8nWZ1WYeseKwx0Ay4JXGjOFhCU0ty/view?usp=sharing" },
+];
+
 const tabs: Array<{ id: Tab; label: string; icon: string }> = [
-  { id: "itinerary", label: "总行程", icon: "路线" },
+  { id: "itinerary", label: "完整攻略", icon: "攻略" },
   { id: "tickets", label: "景点门票", icon: "门票" },
   { id: "transit", label: "城际交通", icon: "交通" },
+  { id: "documents", label: "重要文件", icon: "文件" },
 ];
+
+const navigableMarkdown = itineraryMarkdown
+  .replace("# 0｜总行程审计结论", '<span id="overview"></span>\n# 0｜总行程审计结论')
+  .replace("# 8｜全程出发前总 Checklist", '<span id="checklist"></span>\n# 8｜全程出发前总 Checklist')
+  .replace("# PART A｜Barcelona 详细攻略", '<span id="barcelona"></span>\n# PART A｜Barcelona 详细攻略')
+  .replace("# PART B｜Sevilla / Córdoba 详细攻略", '<span id="sevilla"></span>\n# PART B｜Sevilla / Córdoba 详细攻略')
+  .replace("# PART C｜Madrid 详细攻略", '<span id="madrid"></span>\n# PART C｜Madrid 详细攻略');
+
+const itineraryHtml = marked.parse(navigableMarkdown, {
+  async: false,
+  gfm: true,
+  breaks: false,
+}) as string;
 
 function QuickLinkList({ items }: { items: Array<{ label: string; url?: string }> }) {
   return (
     <div className="private-list">
-      {items.map((item) => {
-        const hasLink = Boolean(item.url);
-        return (
-          <div className="private-row" key={item.label}>
-            <div className="private-name">
-              <span className={`status-dot ${hasLink ? "ready" : ""}`} aria-hidden="true" />
-              <span>{item.label}</span>
-            </div>
-            <div className="row-actions">
-              {item.url ? (
-                <a href={item.url} target="_blank" rel="noreferrer">打开文件 ↗</a>
-              ) : (
-                <span className="tbd-label">TBD</span>
-              )}
-            </div>
+      {items.map((item) => (
+        <div className="private-row" key={item.label}>
+          <div className="private-name">
+            <span className={`status-dot ${item.url ? "ready" : ""}`} aria-hidden="true" />
+            <span>{item.label}</span>
           </div>
-        );
-      })}
+          <div className="row-actions">
+            {item.url ? (
+              <a href={item.url} target="_blank" rel="noreferrer">打开文件 ↗</a>
+            ) : (
+              <span className="tbd-label">TBD</span>
+            )}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
@@ -83,16 +87,16 @@ export default function Home() {
           </a>
           <div className="privacy-button">
             <span className="lock" aria-hidden="true">●</span>
-            快速链接 <b>14</b>
+            快速链接 <b>15</b>
           </div>
         </nav>
 
         <div className="hero-copy" id="top">
-          <p className="eyebrow">2026 · 国庆旅行手册</p>
+          <p className="eyebrow">2026.09.26 — 10.09 · 全程旅行手册</p>
           <h1>从地中海，<br />一路走到马德里。</h1>
-          <p className="hero-subtitle">巴塞罗那 · 蒙塞拉特 · 塞维利亚 · 科尔多瓦 · 马德里</p>
+          <p className="hero-subtitle">上海 · 北京 · 巴塞罗那 · 蒙塞拉特 · 塞维利亚 · 科尔多瓦 · 马德里</p>
           <div className="route-line" aria-label="旅行路线">
-            <span>BCN</span><i /><span>SVQ</span><i /><span>MAD</span>
+            <span>SHA</span><i /><span>BCN</span><i /><span>SVQ</span><i /><span>MAD</span>
           </div>
         </div>
         <div className="sun-shape" aria-hidden="true" />
@@ -116,37 +120,23 @@ export default function Home() {
       </div>
 
       {activeTab === "itinerary" && (
-        <section className="content itinerary-section" role="tabpanel">
-          <div className="section-heading">
-            <div>
-              <p className="mini-label">THE JOURNEY</p>
-              <h2>每日行程</h2>
-            </div>
-            <p>目前按 Notion 中已经确认的门票与交通节点整理；完整攻略正文导入后会补齐餐饮、住宿与细节。</p>
-          </div>
-          <div className="timeline">
-            {itinerary.map((day, index) => (
-              <article className="day-card" key={day.date}>
-                <div className={`date-block ${day.tone}`}>
-                  <span>DAY {String(index + 1).padStart(2, "0")}</span>
-                  <strong>{day.date}</strong>
-                </div>
-                <div className="day-copy">
-                  <p>{day.city}</p>
-                  <h3>{day.title}</h3>
-                  <span>{day.detail}</span>
-                </div>
-                <div className="card-arrow" aria-hidden="true">↗</div>
-              </article>
-            ))}
-          </div>
+        <section className="guide-shell" role="tabpanel">
+          <nav className="guide-jumpnav" aria-label="攻略章节跳转">
+            <a href="#overview">总控</a>
+            <a href="#checklist">出发清单</a>
+            <a href="#barcelona">Barcelona</a>
+            <a href="#sevilla">Sevilla / Córdoba</a>
+            <a href="#madrid">Madrid</a>
+          </nav>
+          <article className="markdown-content" dangerouslySetInnerHTML={{ __html: itineraryHtml }} />
+          <a className="back-to-top" href="#top">回到顶部 ↑</a>
         </section>
       )}
 
       {activeTab === "tickets" && (
         <section className="content links-section" role="tabpanel">
           <div className="section-heading">
-            <div><p className="mini-label">PRIVATE VAULT</p><h2>景点门票</h2></div>
+            <div><p className="mini-label">QUICK ACCESS</p><h2>景点门票</h2></div>
             <p>点击后直接打开对应的 Google Drive 文件；两个尚未确认的项目暂时标记为 TBD。</p>
           </div>
           <QuickLinkList items={ticketItems} />
@@ -160,6 +150,16 @@ export default function Home() {
             <p>点击即可打开对应的航班或铁路电子文件。</p>
           </div>
           <QuickLinkList items={transitItems} />
+        </section>
+      )}
+
+      {activeTab === "documents" && (
+        <section className="content links-section" role="tabpanel">
+          <div className="section-heading">
+            <div><p className="mini-label">ESSENTIAL DOCS</p><h2>重要文件</h2></div>
+            <p>旅行途中需要快速查阅的保险及其他重要材料。</p>
+          </div>
+          <QuickLinkList items={documentItems} />
         </section>
       )}
 
