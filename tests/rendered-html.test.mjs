@@ -64,3 +64,12 @@ test("daily sections stop at the next day", async () => {
   assert.match(royalMadrid, /Royal Palace of Madrid/);
   assert.doesNotMatch(royalMadrid, /Museo del Prado/);
 });
+
+test("mobile controls use large touch targets and bottom navigation", async () => {
+  const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(css, /\.tab-wrap\s*\{[^}]*position:\s*fixed[^}]*inset:\s*auto 0 0/s);
+  assert.match(css, /\.tabs button\s*\{[^}]*min-height:\s*58px/s);
+  assert.match(css, /\.guide-outline-mobile summary\s*\{[^}]*min-height:\s*48px/s);
+  assert.match(css, /\.guide-outline-mobile a\s*\{[^}]*min-height:\s*44px/s);
+  assert.match(css, /env\(safe-area-inset-bottom\)/);
+});

@@ -196,15 +196,15 @@ const itineraryHtml = renderMarkdown(navigableMarkdown);
 function QuickLinkList({ items }: { items: Array<{ label: string; url?: string }> }) {
   return (
     <div className="private-list">
-      {items.map((item) => (
+      {items.map((item) => item.url ? (
+        <a className="private-row link-row" key={item.label} href={item.url} target="_blank" rel="noreferrer">
+          <span className="private-name"><span className="status-dot ready" aria-hidden="true" /><span>{item.label}</span></span>
+          <span className="row-link-label">打开文件 ↗</span>
+        </a>
+      ) : (
         <div className="private-row" key={item.label}>
-          <div className="private-name">
-            <span className={`status-dot ${item.url ? "ready" : ""}`} aria-hidden="true" />
-            <span>{item.label}</span>
-          </div>
-          <div className="row-actions">
-            {item.url ? <a href={item.url} target="_blank" rel="noreferrer">打开文件 ↗</a> : <span className="tbd-label">TBD</span>}
-          </div>
+          <span className="private-name"><span className="status-dot" aria-hidden="true" /><span>{item.label}</span></span>
+          <span className="tbd-label">TBD</span>
         </div>
       ))}
     </div>
