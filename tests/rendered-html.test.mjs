@@ -41,6 +41,10 @@ test("public build contains all quick links but no identity data", async () => {
   assert.match(output, /Faborit Casa Amatller/);
   assert.match(output, /Palco Central P7/);
   assert.match(output, /Guernica/);
+  assert.match(output, /Tibidabo/);
+  assert.match(output, /Turó de la Rovira/);
+  assert.match(output, /Las Setas/);
+  assert.match(output, /Mezquita-Catedral[^]*10:00/);
   assert.match(output, /drive\.google\.com/);
   assert.match(output, /1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/);
   assert.match(output, /1DvGcWF3irX6jfdkiiAfgoDL72GkWg1d1/);
@@ -65,6 +69,11 @@ test("daily sections stop at the next day", async () => {
   const royalMadrid = extractSection(markdown, "# 10/7｜Royal Madrid", "# 10/8｜Prado");
   assert.match(royalMadrid, /Royal Palace of Madrid/);
   assert.doesNotMatch(royalMadrid, /Museo del Prado/);
+
+  const madridArrival = extractSection(markdown, "# 10/6｜抵达 Madrid", "# 10/7｜Royal Madrid");
+  assert.match(madridArrival, /Temple of Debod/);
+  assert.match(madridArrival, /Gran Vía/);
+  assert.doesNotMatch(madridArrival, /Royal Palace of Madrid/);
 });
 
 test("mobile controls use large touch targets and bottom navigation", async () => {

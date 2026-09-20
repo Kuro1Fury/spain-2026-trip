@@ -47,9 +47,9 @@ const days: Array<{
   },
   { id: "0927", date: "09.27", city: "北京 → 巴塞罗那", title: "抵达地中海", detail: "落地安顿 · 哥特区 · Born · 海边", tone: "coral", markdown: section("# 9/27｜抵达日：老城 + 海边", "# 9/28｜高迪住宅日") },
   { id: "0928", date: "09.28", city: "巴塞罗那", title: "现代主义建筑日", detail: "Casa Batlló · La Pedrera · Gràcia", tone: "coral", markdown: section("# 9/28｜高迪住宅日", "# 9/29｜Park Güell") },
-  { id: "0929", date: "09.29", city: "巴塞罗那", title: "高迪的城市花园", detail: "Park Güell · Gràcia 慢游", tone: "green", markdown: section("# 9/29｜Park Güell", "# 9/30｜Montserrat") },
+  { id: "0929", date: "09.29", city: "巴塞罗那", title: "高迪的城市花园", detail: "Park Güell · Gràcia · Bunkers", tone: "green", markdown: section("# 9/29｜Park Güell", "# 9/30｜Montserrat") },
   { id: "0930", date: "09.30", city: "蒙塞拉特", title: "山间一日", detail: "修道院 · 圣像 · 山景 · 轻徒步", tone: "sand", markdown: section("# 9/30｜Montserrat 一日游", "# 10/1｜Sagrada Família") },
-  { id: "1001", date: "10.01", city: "巴塞罗那", title: "高迪巅峰", detail: "Sagrada Família · Sant Pau · 最后一晚", tone: "blue", markdown: section("# 10/1｜Sagrada Família", "# 10/2｜Barcelona → Sevilla") },
+  { id: "1001", date: "10.01", city: "巴塞罗那", title: "高迪巅峰", detail: "Sagrada Família · Sant Pau · Tibidabo", tone: "blue", markdown: section("# 10/1｜Sagrada Família", "# 10/2｜Barcelona → Sevilla") },
   {
     id: "1002", date: "10.02", city: "巴塞罗那 → 塞维利亚", title: "南下安达卢西亚", detail: "FR1165 · 入住 · Bienal Flamenco", tone: "coral",
     markdown: [
@@ -57,14 +57,14 @@ const days: Array<{
       section("# 10/2｜抵达 Sevilla + Bienal Flamenco", "# 10/3｜Cathedral"),
     ].join("\n\n---\n\n"),
   },
-  { id: "1003", date: "10.03", city: "塞维利亚", title: "大教堂与慢城", detail: "Cathedral · Giralda · Santa Cruz", tone: "gold", markdown: section("# 10/3｜Cathedral", "# 10/4｜Córdoba") },
+  { id: "1003", date: "10.03", city: "塞维利亚", title: "大教堂与河岸", detail: "Cathedral · Santa Cruz · Triana", tone: "gold", markdown: section("# 10/3｜Cathedral", "# 10/4｜Córdoba") },
   { id: "1004", date: "10.04", city: "科尔多瓦", title: "白色古城一日", detail: "Mezquita · Judería · Roman Bridge", tone: "sand", markdown: section("# 10/4｜Córdoba 一日游", "# 10/5｜Plaza de España") },
-  { id: "1005", date: "10.05", city: "塞维利亚", title: "广场、公园与王宫", detail: "Plaza de España · María Luisa · Real Alcázar", tone: "green", markdown: section("# 10/5｜Plaza de España", "# 10/6｜Sevilla → Madrid") },
+  { id: "1005", date: "10.05", city: "塞维利亚", title: "广场、公园与王宫", detail: "Plaza de España · Real Alcázar · Las Setas", tone: "green", markdown: section("# 10/5｜Plaza de España", "# 10/6｜Sevilla → Madrid") },
   {
-    id: "1006", date: "10.06", city: "塞维利亚 → 马德里", title: "抵达首都", detail: "OUIGO · 老 Madrid · Debod · La Latina", tone: "blue",
+    id: "1006", date: "10.06", city: "塞维利亚 → 马德里", title: "抵达首都", detail: "OUIGO · 老 Madrid · Debod · Gran Vía", tone: "blue",
     markdown: [
       section("# 10/6｜Sevilla → Madrid", "# 🍴 餐厅池｜不用每天重新搜索"),
-      section("# 10/6｜抵达 Madrid + 老城 + Debod + La Latina", "# 10/7｜Royal Madrid"),
+      section("# 10/6｜抵达 Madrid", "# 10/7｜Royal Madrid"),
     ].join("\n\n---\n\n"),
   },
   { id: "1007", date: "10.07", city: "马德里", title: "Royal Madrid", detail: "皇宫 · Almudena · Gran Vía · Malasaña", tone: "coral", markdown: section("# 10/7｜Royal Madrid", "# 10/8｜Prado") },
@@ -226,7 +226,7 @@ export default function Home() {
       <header className="hero">
         <nav className="topbar" aria-label="主导航">
           <a className="brand" href="#top" aria-label="西班牙行程首页"><span className="brand-mark">ES</span><span>España 2026</span></a>
-          <div className="privacy-button"><span className="lock" aria-hidden="true">●</span>快速链接 <b>15</b></div>
+          <div className="privacy-button"><span className="lock" aria-hidden="true">●</span>快速链接 <b>17</b></div>
         </nav>
         <div className="hero-copy" id="top">
           <p className="eyebrow">2026.09.26 — 10.09 · 全程旅行手册</p>

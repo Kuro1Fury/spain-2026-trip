@@ -2,7 +2,7 @@
 
 **旅行日期：2026/9/26–10/9**  
 **主线：上海 → 北京 → Barcelona → Sevilla / Córdoba → Madrid → 北京 → 上海**  
-**旅行风格：核心预约提前锁定；每天保留弹性；不为了“清地图”牺牲体验。**
+**旅行风格：A 级硬预约锁定；B 级正常体力建议去；C 级有余力再加。不为了“清地图”牺牲体验。**
 
 > **这份文件是总控版。**  
 > 最前面放全程交通、酒店、预约、行李与待办；后半部分保留 Barcelona、Sevilla/Córdoba、Madrid 三份详细城市攻略。  
@@ -23,18 +23,17 @@
   - Sevilla：**Select Tetuán**（以此为准，Petit Palace Santa Cruz 不采用）
   - Madrid：**Hostal Atocha Almudena Martín**
 - Barcelona、Sevilla、Madrid 的核心收费景点大部分已经预订完毕。
+- 9/30 Montserrat 完整套票已经预订，13:00 Escolania、Holy Image 15:30 以后。
+- 10/4 Mezquita-Catedral 已经预订，固定 10:00 入场。
 - Madrid 10/8 退房后计划把大件行李寄存在酒店，晚上取回后去机场。
 
-## ⏳ 还没有闭环的两张核心票
+## 🧭 全程 A / B / C 使用规则
 
-1. **9/30 Montserrat 一日游**
-   - 目标：包含 Barcelona 往返交通 + Rack Railway + Basilica + Holy Image + Escolania 的完整产品
-   - 状态：尚未开放 / 已安排检查
-
-2. **10/4 Córdoba Mezquita-Catedral**
-   - 目标：普通日间参观
-   - 优先时段：**10:00–11:00**
-   - 状态：10 月日历尚未开放 / 已安排检查
+- **A 级｜硬预约**：已购票、固定交通和必须准点到达的项目，优先级最高。
+- **B 级｜正常体力建议去**：不需要硬撑，但当天状态正常就按顺路动线完成。
+- **C 级｜有余力再加**：现场看体力、天气和时间决定，不预购、不制造赶路压力。
+- 每天优先把**同一区域串成一条线**，避免为了一个加项跨区折返。
+- 加项原则上以**额外移动约 20–30 分钟内**为宜；超过就优先砍 C 级。
 
 ## ⚠️ 出发前必须确认的 4 件事
 
@@ -145,7 +144,7 @@
 | 9/28 | **10:15** | Casa Batlló · Platinum | ✅ |
 | 9/28 | **16:00** | La Pedrera · Essential | ✅ |
 | 9/29 | **10:30** | Park Güell | ✅ |
-| 9/30 | 待开放 | Montserrat 一日游 | ⏳ |
+| 9/30 | **13:00 Escolania** | Montserrat 完整套票 | ✅ 已订；Holy Image **15:30+** |
 | 10/1 | **09:30** | Sagrada Família | ✅ |
 | 10/1 | **09:45** | Sagrada Família Towers | ✅ |
 
@@ -155,7 +154,7 @@
 |---|---:|---|---|
 | 10/2 | **20:00** | Bienal de Flamenco｜Alfonso Losa《Gesto mínimo》 | ✅ |
 | 10/3 | **10:55** | Sevilla Cathedral + Giralda（含 El Salvador） | ✅ |
-| 10/4 | 目标 10:00–11:00 | Mezquita-Catedral | ⏳ |
+| 10/4 | **10:00** | Mezquita-Catedral | ✅ 已订 |
 | 10/5 | **13:00** | Real Alcázar + Cuarto Real Alto | ✅ |
 
 ### Bienal 座位
@@ -348,7 +347,7 @@ Madrid T1 办理 CA898 时：
 手机里建议建立：
 
 **Spain 2026/**
-- `00_护照签证保险`
+- `00_护照保险`
 - `01_国际航班`
 - `02_Barcelona`
 - `03_BCN-Sevilla_FR1165`
@@ -370,10 +369,10 @@ Madrid T1 办理 CA898 时：
 
 # 8｜全程出发前总 Checklist
 
-## 仍需购买
+## 已完成的核心购票
 
-- [ ] 9/30 Montserrat 完整套票
-- [ ] 10/4 Mezquita-Catedral
+- [x] 9/30 Montserrat 完整套票
+- [x] 10/4 10:00 Mezquita-Catedral
 
 ## 行李
 
@@ -403,10 +402,12 @@ Madrid T1 办理 CA898 时：
 - [ ] Casa Batlló
 - [ ] La Pedrera
 - [ ] Park Güell
+- [ ] Montserrat 完整套票（含 FGC + Rack Railway + Basilica / Holy Image / Escolania）
 - [ ] Sagrada Família + Tower
 - [ ] Bienal
 - [ ] Sevilla Cathedral + Giralda
 - [ ] Córdoba 火车
+- [ ] Mezquita-Catedral
 - [ ] Real Alcázar + Cuarto Real Alto
 - [ ] Royal Palace + 手机 audioguide
 - [ ] Prado
@@ -432,31 +433,31 @@ Madrid T1 办理 CA898 时：
 
 真正需要继续盯的只有：
 
-> **Montserrat + Mezquita 两张尚未开放的票，Ryanair 托运行李重量，以及北京联程行李直挂确认。**
+> **Ryanair 托运行李重量、北京联程行李直挂确认，以及各景点临时开放调整。**
 
 ---
 
 # PART A｜Barcelona 详细攻略
 
 **旅行日期：2026/9/27--10/2**\
-**节奏：约 8/10｜每天 1--2 个核心项目 + 街区漫游 + 可选加项**
+**节奏：约 8/10｜A 级硬预约 + B 级顺路主线 + C 级现场加项**
 
-> **使用方法**：每天只把「核心」当任务。⭐ 机动项看体力和天气决定；🌧️
-> Plan B
-> 只在天气不好时启用。餐厅是"附近候选池"，不用为了某一家跨城赶路。
+> **使用方法**：A 级必须按时到；B 级正常体力建议去；C 级有余力再加。
+> 同一区域一路串联，额外移动尽量控制在约 20--30 分钟内，不为了加项跨区折返。
+> 🌧️ Plan B 只在天气不好时启用。餐厅是"附近候选池"，不用为了某一家跨城赶路。
 
 ------------------------------------------------------------------------
 
 # 先看这一页｜Trip Dashboard
 
-## 🎟️ 已锁定 / 待办
+## 🎟️ 已锁定
 
   日期   项目                                   时间 状态
   ------ ------------------------ ------------------ ---------
   9/28   Casa Batlló · Platinum            **10:15** ✅ 已订
   9/28   La Pedrera · Essential            **16:00** ✅ 已订
   9/29   Park Güell                        **10:30** ✅ 已订
-  9/30   Montserrat 一日游                    待开放 ⏳ 待订
+  9/30   Montserrat 完整套票          **13:00 Escolania** ✅ 已订
   10/1   Sagrada Família                   **09:30** ✅ 已订
   10/1   Sagrada Família Towers            **09:45** ✅ 已订
   10/2   Barcelona → Sevilla        **12:40 FR1165** ✈️ 离开
@@ -466,7 +467,7 @@ Madrid T1 办理 CA898 时：
 -   **10/1 圣家堂：带护照原件。**
     官方规定实名票入场需要身份证件/护照核验。
 -   所有电子票提前下载到手机，最好另存离线 PDF。
--   9/30 Montserrat 套票尚未开放；已安排后续检查。
+-   9/30 Montserrat 完整套票已购买；**13:00 Escolania，Holy Image / Virgin's Throne 15:30 以后**。
 -   10/2 是飞 Sevilla 的移动日，**不要再塞景点**。
 -   相机、护照、钱包等贵重物品始终随身。
 
@@ -474,9 +475,9 @@ Madrid T1 办理 CA898 时：
 
 -   **9/27｜老 Barcelona**：Gothic Quarter / Born / 海边
 -   **9/28｜高迪住宅**：Passeig de Gràcia → Gràcia
--   **9/29｜高迪公园 + 生活街区**：Park Güell → Gràcia
+-   **9/29｜高迪公园 + 城市景观**：Park Güell → Gràcia → Bunkers
 -   **9/30｜自然一日游**：Montserrat
--   **10/1｜高迪巅峰 + 补漏**：Sagrada Família → Sant Pau / 自由选择
+-   **10/1｜高迪巅峰 + 山城视角**：Sagrada Família → Sant Pau → Tibidabo（状态好才去）
 -   **10/2｜移动**：Barcelona → Sevilla
 
 ------------------------------------------------------------------------
@@ -528,6 +529,11 @@ Jaume - Plaça del Rei - El Born - Santa Maria del Mar
 -   Barcelona Cathedral 入内
 -   Barceloneta 多走一段
 -   找 rooftop / bar 喝一杯
+
+### C 级｜Montjuïc / MNAC 前广场
+
+如果抵达流程特别顺、下午主线走完后仍有体力，可去 **Montjuïc / MNAC 前广场**看城市景观。
+它只是当日机动项，不预购、不设完成目标；一旦需要赶路或影响 Gothic → Born → Port Vell / Barceloneta 主线，就直接砍掉。
 
 ### 🌧️ Plan B
 
@@ -606,11 +612,15 @@ Mediterranean，预算明显更高，建议预约
 
 **换口味** - KILTRO Restobar --- Latin American - ÁNDELE Gràcia
 
-### ⭐ 体力好就加
+### C 级｜Casa Vicens
+
+La Pedrera 结束后先进入 Gràcia。若时间、体力都好，可现场决定是否顺路看 **Casa Vicens**；**不预购**，也不为它缩短 Gràcia。
 
 -   Gràcia 的 Plaça del Sol
 -   Plaça de la Virreina
 -   Carrer de Verdi
+
+> 今天不再加 Tibidabo、Bunkers 或 Montjuïc；两个定时建筑 + Gràcia 已是完整主线。
 
 ### 🌧️ Plan B
 
@@ -626,8 +636,8 @@ Gràcia，**这一天尽量全程走路**。
 
 # 9/29｜Park Güell + Gràcia
 
-**📍活动区域：Park Güell → Gràcia**\
-**💡 今日策略：上午高迪，下午 Barcelona 生活感。机动项只在体力好时加。**
+**📍活动区域：Park Güell → Gràcia → Turó de la Rovira / Bunkers del Carmel**\
+**💡 今日策略：上午高迪，中午和下午留给 Gràcia；天气与体力正常时，傍晚去 Bunkers 看城市。**
 
 ## 上午｜Park Güell
 
@@ -666,7 +676,16 @@ Gràcia，**这一天尽量全程走路**。
 
 看到喜欢的 café 就坐，不需要追特定网红店。
 
-## 晚上｜继续 Gràcia
+## 傍晚｜B 级强备选：Turó de la Rovira / Bunkers del Carmel
+
+完成 Gràcia 午饭和慢逛后，若天气正常、体力也正常，建议傍晚去 **Turó de la Rovira / Bunkers del Carmel**。
+
+-   它从原来的“二选一”升级为 **B 级强备选**。
+-   重点是城市全景和傍晚光线，不追求长时间停留。
+-   9/29 仍执行 9 月访问时段；考古遗址区域目前 **19:30 关闭**，不要把“卡最后一分钟进场”当计划。
+-   如果下雨、能见度差或当天已经累，就直接砍，不用补偿性改去别处。
+
+## 晚上｜按最终落点吃饭
 
 ### 🍷 晚餐
 
@@ -675,15 +694,7 @@ Gràcia，**这一天尽量全程走路**。
 -   KILTRO
 -   Con Gracia（如果想把正式晚餐放今天）
 
-### ⭐ 体力好就加｜二选一即可
-
-**A. Turó de la Rovira / Bunkers del Carmel**\
-适合天气非常好、想看城市景观。
-
-**B. Hospital de Sant Pau**\
-如果更想看建筑，可以把 Sant Pau 提前到今天，10/1 下午就彻底留白。
-
-> 不要两个都加。
+> **Sant Pau 不放在今天，也不再与 Bunkers 二选一。** Sant Pau 留给 10/1，和 Sagrada Família 沿 Avinguda de Gaudí 顺路串联。
 
 ### 🌧️ Plan B
 
@@ -705,17 +716,17 @@ museum / shopping。
 **📍活动区域：Barcelona → Montserrat → Barcelona**\
 **💡 今日策略：这是完整一日游。山景比"打卡完所有室内项目"更重要。**
 
-## 🎟️ 当前状态：⏳ 待开放
+## 🎟️ 当前状态：✅ 已购买完整套票
 
-目标产品：
+套票包含：
 
-**Visit Montserrat + Holy Image + Escolania + Train + Rack Railway**
+-   Barcelona 往返 **FGC**
+-   **Rack Railway / Cremallera**
+-   **Basilica**
+-   **Holy Image / Virgin's Throne**
+-   **Escolania Boys' Choir**
 
-之前看到的版本包含： - Barcelona 往返 FGC 火车 - Rack Railway /
-Cremallera - Basilica - Holy Image / Throne of Our Lady - Escolania
-Boys' Choir - Museum - Audiovisual Space 等
-
-> 目前 9/30 尚未开放。已经安排后续检查。
+当天两处时间锚点：**13:00 Escolania**；**Holy Image / Virgin's Throne 15:30 以后**。
 
 ## 上午｜Barcelona → Montserrat
 
@@ -736,15 +747,15 @@ Boys' Choir - Museum - Audiovisual Space 等
 
 ## 中午｜Escolania + 午餐
 
-如果最终买到我们看的套餐，**Escolania 的固定时间会成为当天时间锚点**。
+**13:00 Escolania** 是当天第一个固定时间锚点。
 
 午餐： - Montserrat 山上解决 - 如果最终套餐含餐，则使用套餐
 
 ## 下午｜Holy Image + 山景 / 轻徒步
 
-如果票面 Holy Image 有指定时段，按预约执行。
+**Holy Image / Virgin's Throne 安排在 15:30 以后**，按票面预约执行。
 
-### ⭐ 天气好就加
+### C 级｜天气好就加
 
 **Sant Joan Funicular + 一小段轻徒步 / 观景**
 
@@ -771,17 +782,14 @@ Montserrat 最大变量就是天气。
 
 ### 🚇 交通
 
-**务必确认最终购买的是包含 Barcelona 往返火车的产品。**
-
-不要误买只有 Montserrat 山上交通的 Transport Pack。
+已购套票包含 Barcelona 往返 FGC 与 Rack Railway；当天按票面说明和现场指引换乘即可。
 
 ------------------------------------------------------------------------
 
-# 10/1｜Sagrada Família + Sant Pau / 自由补漏
+# 10/1｜Sagrada Família + Sant Pau + Tibidabo
 
-**📍活动区域：Sagrada Família → Avinguda de Gaudí → Sant Pau →
-自由选择**\
-**💡 今日策略：上午是全程最重要的预约之一，下午故意不锁死。**
+**📍活动区域：Sagrada Família → Avinguda de Gaudí → Sant Pau → Tibidabo**\
+**💡 今日策略：上午锁定圣家堂；Sant Pau 顺路正常参观；下午只保留 Tibidabo 这一个主加码。**
 
 ## 上午｜Sagrada Família
 
@@ -818,22 +826,24 @@ passport 核验。
 - Zed --- Mediterranean - Tuscania Mediterranean - Mira Restaurant -
 Micu Maku
 
-## 下午｜Sant Pau / 补漏
+## 下午前段｜B 级：Hospital de Sant Pau
 
-### ⭐ 推荐机动项：Hospital de Sant Pau
+从圣家堂沿 Avinguda de Gaudí 走到 **Hospital de Sant Pau**，正常体力建议入内参观，不再只是机动项。
 
-如果前几天状态好、还想继续看 Barcelona 的 Modernisme，可以入内。
+参观后现场做一次明确判断：
 
-如果已经看建筑看够了： - 只看外观 - 找 café - 回 Eixample / Born -
-买东西 - 回酒店休息
+-   若出来约 **14:30--15:00**，天气好、状态也好：继续去 Tibidabo。
+-   若已经 **15:30+**，或明显累了：砍 Tibidabo，回 Eixample / 酒店休息。
 
-### 其他补漏方向
+## 下午后段｜B 级唯一主加码：Tibidabo
 
--   El Born
--   Gothic Quarter
--   Barceloneta
--   shopping
--   找一家喜欢的 café 再坐一次
+Tibidabo 是今天下午唯一主加码。去之前只看三件事：时间、天气、体力。
+
+-   10/1 是工作日；按当前 2026 日历，目标是每天开放的 **Panoramic Area + 山顶教堂与城市景观**，不是游乐园本体。
+-   上山优先按官方当天时刻表使用 **Cuca de Llum**；出发前再复核 10/1 的关闭时间和天气通知。
+-   如果只想看景，不需要为了几项收费设施再买完整游乐园票。
+
+> 一旦决定去 Tibidabo，下午不再跑 Born、Montjuïc、Casa Vicens，也不加其他跨区项目。
 
 ## 晚上｜Barcelona 最后一晚
 
@@ -846,7 +856,7 @@ ABANIC
 
 ### 🌧️ Plan B
 
-圣家堂本身不受天气影响。下午把 Sant Pau / 街区漫游换成室内项目即可。
+圣家堂和 Sant Pau 室内部分照常；天气差就直接砍 Tibidabo，不另加跨区项目。
 
 ### 🚇 交通
 
@@ -942,11 +952,12 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 
 ## 建筑
 
--   Hospital de Sant Pau
+-   Casa Vicens（仅 9/28 La Pedrera 后现场决定）
 
 ## 城市景观
 
--   Turó de la Rovira / Bunkers del Carmel
+-   Tibidabo（10/1 唯一下午主加码）
+-   Montjuïc / MNAC 前广场（仅 9/27 C 级）
 
 ## 街区
 
@@ -972,7 +983,7 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 -   不需要把 Barcelona 每个博物馆都看一遍
 -   不需要每顿饭都吃网红店
 -   不需要每天安排 rooftop
--   不需要 Park Güell + Bunkers + Sant Pau 同一天全完成
+-   不需要在 9/29 把 Bunkers 和 Sant Pau 塞在同一天
 -   Montserrat 不需要硬核徒步
 -   10/2 不需要"最后再看一个景点"
 
@@ -1030,7 +1041,7 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 
 # ⏳ 出发前待办
 
--   [ ] Montserrat 9/30 套票开放后完成预订
+-   [x] Montserrat 9/30 完整套票已购买并离线保存
 -   [ ] 确认 Park Güell 电子票已经离线保存
 -   [ ] Casa Batlló / La Pedrera / Sagrada Família 票全部下载
 -   [ ] 想吃 Con Gracia 的话提前预约
@@ -1043,8 +1054,8 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 
 # 一句话版
 
-**9/27 老城适应 → 9/28 两栋高迪住宅 → 9/29 Park Güell + Gràcia → 9/30
-Montserrat → 10/1 圣家堂 + Sant Pau/补漏 → 10/2 飞 Sevilla。**
+**9/27 老城 + 海边（Montjuïc 仅 C 级）→ 9/28 两栋高迪住宅 + Gràcia → 9/29 Park Güell + Gràcia + Bunkers → 9/30
+Montserrat → 10/1 圣家堂 + Sant Pau + Tibidabo（状态好才去）→ 10/2 飞 Sevilla。**
 
 这版的重点不是"少玩"，而是
 **把确定的精彩项目锁住，把额外精彩留成当天可选项**。
@@ -1054,18 +1065,17 @@ Montserrat → 10/1 圣家堂 + Sant Pau/补漏 → 10/2 飞 Sevilla。**
 # PART B｜Sevilla / Córdoba 详细攻略
 
 **旅行日期：2026/10/2--10/6**\
-**节奏：约 6.5/10｜每天 1 个核心锚点 + 街区漫游 + Córdoba 一日游**
+**节奏：约 7.5/10｜A 级硬预约 + B 级同区串联 + C 级现场加项**
 
-> **使用方法**：Sevilla 这段故意和 Barcelona
-> 区分开。每天只把「核心预约」当任务；其余时间留给散步、tapas、咖啡和临时起意。⭐
-> 机动项看体力决定；🌧️ Plan B
+> **使用方法**：A 级按票面执行；B 级正常体力建议去；C 级有余力再加。
+> 每天沿同一区域向前串，额外移动尽量控制在约 20--30 分钟内。🌧️ Plan B
 > 只在天气不好时启用。餐厅是"附近候选池"，不要为了某一家跨城赶路。
 
 ------------------------------------------------------------------------
 
 # 先看这一页｜Trip Dashboard
 
-## 🎟️ 已锁定 / 待办
+## 🎟️ 已锁定
 
   ---------------------------------------------------------------------------
   日期             项目                                 时间 状态
@@ -1083,8 +1093,8 @@ Montserrat → 10/1 圣家堂 + Sant Pau/补漏 → 10/2 飞 Sevilla。**
                    → Córdoba｜AVE                            
                    03943                                     
 
-  10/4             Mezquita-Catedral       **约 10:00--11:00 ⏳ 10 月票待开放
-                   de Córdoba                     目标时段** 
+  10/4             Mezquita-Catedral              **10:00** ✅ 已订
+                   de Córdoba
 
   10/4             Córdoba →                **19:27--20:28** ✅ 已订
                    Sevilla-Santa                             
@@ -1102,9 +1112,7 @@ Montserrat → 10/1 圣家堂 + Sant Pau/补漏 → 10/2 飞 Sevilla。**
 
 -   **10/2 Bienal**：Teatro Lope de Vega，**Palco Central P7｜Fila
     2｜Butaca 4**。建议约 **19:30 到剧院**，不要迟到。
--   **10/4 Mezquita**：10
-    月日历目前尚未开放，已经安排自动检查；开放后优先抢 **10:00--11:00
-    左右**。
+-   **10/4 Mezquita**：已订 **10:00**，从 Córdoba 车站直接去老城，不在上午加别的项目。
 -   10/4 是 Córdoba 一日游，火车已经锁定，**当天不要临时再加 Medina
     Azahara**。
 -   10/5 王宫为 **Real Alcázar + Cuarto Real Alto** 完整版，13:00
@@ -1116,12 +1124,12 @@ Montserrat → 10/1 圣家堂 + Sant Pau/补漏 → 10/2 飞 Sevilla。**
 ## 🧭 这几天的城市逻辑
 
 -   **10/2｜进入 Andalucía**：抵达 → 老城初体验 → Bienal Flamenco
--   **10/3｜历史核心 + 慢 Sevilla**：Cathedral / Giralda → Santa Cruz →
-    老城自由漫游
+-   **10/3｜历史核心 + 河岸 / Triana**：Cathedral / Giralda → Santa Cruz →
+    Torre del Oro / 河岸 → Triana
 -   **10/4｜Córdoba 一日游**：Mezquita → Judería →
     Alcázar（视开放时间）→ 老城 / Roman Bridge
--   **10/5｜开阔城市景观 + 王宫**：Plaza de España → María Luisa Park →
-    Real Alcázar
+-   **10/5｜开阔城市景观 + 王宫 + 夜景**：Plaza de España → María Luisa Park →
+    Real Alcázar → Centro → Las Setas
 -   **10/6｜移动**：Sevilla → Madrid
 
 ------------------------------------------------------------------------
@@ -1136,8 +1144,13 @@ Andalucía。**
 
 -   从 Barcelona 抵达 Sevilla 后先去住宿处寄存行李 / 入住。
 -   下午不安排任何门票。
--   状态好：在住宿附近、老城或 Santa Cruz 边缘随便走。
+-   状态好：从 Select Tetuán 周边串 **Plaza Nueva → Ayuntamiento → Calle Sierpes → Plaza del Salvador**。
 -   状态一般：直接 café / 酒店休息，为晚上的演出留体力。
+
+### C 级｜Las Setas
+
+如果约 16:30 已安顿好、精神也很好，可继续去 **Las Setas** 一带走走；不要求上观景台，**最晚 17:00 决定**。
+它不能影响 19:30 到 Teatro Lope de Vega、20:00 看 Bienal。
 
 ## 傍晚｜提前吃一点
 
@@ -1171,10 +1184,10 @@ Andalucía。**
 
 ------------------------------------------------------------------------
 
-# 10/3｜Cathedral + Giralda + Santa Cruz
+# 10/3｜Cathedral + Santa Cruz + 河岸 + Triana
 
-**📍活动区域：Cathedral / Giralda → Santa Cruz → Centro / 河边**\
-**💡 今日策略：上午完成当天唯一硬预约；午饭以后不再看表。**
+**📍活动区域：Cathedral / Giralda → Santa Cruz → Jardines de Murillo / Archivo de Indias → Torre del Oro / 河岸 → Triana**\
+**💡 今日策略：上午完成硬预约；下午沿一条连续路线向西走，不跨区折返。**
 
 ## 上午｜慢早餐 + Cathedral
 
@@ -1203,28 +1216,32 @@ Andalucía。**
 -   **Bodega Santa Cruz Las Columnas**
 -   **El Librero Abacería**
 
-## 下午｜Santa Cruz 慢游
+## 下午｜Santa Cruz → Jardines de Murillo → 河岸
 
 今天下午的核心就是：**迷路。**
 
 自然串： - Plaza de Santa Cruz - Plaza de Doña Elvira - Callejón del
-Agua - Jardines de Murillo - 小巷、橘子树、庭院、café
+Agua - Jardines de Murillo - Archivo de Indias 周边 - Torre del Oro - Guadalquivir 河岸
 
 ### ⭐ 顺路就去｜Iglesia de El Salvador
 
-Cathedral 门票已包含。状态好且路线顺就进去约 30--45
-分钟；懒得走就不强求。
+Cathedral 门票已包含。若要去，放在大教堂后、进入 Santa Cruz 主线前，约 30--45
+分钟；否则直接跳过，不在河岸之后折返。
 
-## 傍晚 / 晚上
+## 傍晚 / 晚上｜B 级：Triana
 
-二选一： - **A. Guadalquivir 河边**：天气好看傍晚城市 - **B. Centro /
-Santa Cruz**：café → vermut / tapas → 晚饭
+从 Torre del Oro / 河岸继续过桥到 **Triana**，正常体力建议去：
 
-### ⭐ 体力好就加
+-   Mercado de Triana
+-   Calle Betis
+-   陶瓷街区 / 陶瓷店
+-   从河对岸看 Sevilla 老城
 
--   Archivo de Indias 外观 / 周边
--   河边散步
--   Las Setas 一带夜间走走
+晚饭可以直接在 Triana 解决，饭后沿河看夜景再回 Centro。
+
+### C 级｜Las Setas 夜景
+
+只有回到 Centro 后还真有体力、且路线自然时再去；不把 Triana → Las Setas → Santa Cruz 写成必须折返的任务。
 
 ### 🌧️ Plan B
 
@@ -1256,12 +1273,9 @@ Cathedral 照常；下午减少长距离漫游，改 El Salvador + café + 提�
 
 ## 上午后段｜Mezquita-Catedral
 
-### 🎟️ ⏳ 待开放｜目标约 10:00--11:00
+### 🎟️ 10:00｜Mezquita-Catedral ✅
 
-当前 10 月票尚未开放，已安排自动检查。
-
-开放后： - 买普通日间 Mosque-Cathedral / Mezquita-Catedral 票 - 目标
-**10:00--11:00 左右** - Bell Tower 暂不买
+普通日间参观票已经预订，按 **10:00** 入场执行。
 
 建议内部留 **1.5--2
 小时**。重点看红白马蹄拱柱林、Mihrab，以及伊斯兰建筑与后期基督教主教座堂叠加的空间。
@@ -1273,10 +1287,9 @@ Judíos 一带 - 白墙小巷 - 小广场
 
 不要逐点打卡。
 
-### ⭐ Alcázar de los Reyes Cristianos｜视当天开放时间
+### B 级｜Alcázar de los Reyes Cristianos（以当天开放为前提）
 
-10/4 是周日，临近出发前再次核对开放时间。如果和 Mezquita
-衔接不舒服，**可以放弃 Córdoba 的 Alcázar**，不牺牲核心体验。
+10/4 是周日，冬季周日通常只开放到下午早段。Mezquita 出来后先判断：若当天正常开放、并能在 **13:15 前后到达入口**，就先参观 Alcázar、再吃午饭；若衔接不舒服就直接放弃，不牺牲 Mezquita 与 Judería。
 
 ## 午餐｜Córdoba 菜
 
@@ -1290,11 +1303,18 @@ Judíos 一带 - 白墙小巷 - 小广场
 
 可以尝：Salmorejo cordobés、Flamenquín、Rabo de toro。
 
-## 下午｜老城自由 + Roman Bridge
+## 下午｜Alcázar → Roman Bridge
 
-午饭后彻底放松。Judería / Centro Histórico → 河边 → **Roman Bridge**。
+建议主线：**Alcázar de los Reyes Cristianos（B 级、以开放为前提）→ 河边 → Roman Bridge**。
 
-15:30 后尽量留白：café、小店、回喜欢的街区、坐着发呆、临时补一个小景点。
+### C 级｜二选一
+
+若完成主线后仍有时间，只选一个：
+
+-   **Plaza de la Corredera**：更适合继续走城市广场与街区。
+-   **Templo Romano 外观 + Centro 小街**：不受室内闭馆时间牵制，适合回车站前轻量补一段。
+
+**Palacio de Viana 不列入下午加项**：10/4 是周日，当前公布时段为 10:00--15:00，与 Mezquita、Alcázar和午饭冲突。不要两个 C 级都加，也不要因此压缩回车站缓冲。
 
 ## 🚫 明确放弃｜Medina Azahara
 
@@ -1319,8 +1339,8 @@ Mezquita 照常；Judería 缩短；Alcázar 视天气取消；午饭拉长，�
 
 # 10/5｜Plaza de España + María Luisa Park + Real Alcázar
 
-**📍活动区域：Plaza de España → María Luisa Park → Real Alcázar / Santa
-Cruz**\
+**📍活动区域：Plaza de España → María Luisa Park → Real Alcázar → Santa
+Cruz / Salvador / Centro → Las Setas**\
 **💡 今日策略：上午完全自由，下午王宫是唯一硬预约。最后一个完整 Sevilla
 日不要赶。**
 
@@ -1357,9 +1377,13 @@ Cruz**\
 
 > **花园值得留时间。** 不要给自己设"几点必须出来"。
 
-## 傍晚｜王宫花园 → Santa Cruz
+## 傍晚｜王宫花园 → Santa Cruz / Salvador / Centro
 
-按体力决定：Santa Cruz、café / tapas、回酒店、河边。没有必须完成的项目。
+从 Alcázar 出来后沿 **Santa Cruz → Salvador → Centro** 向北走，途中 café / tapas 按体力停。
+
+### B 级｜Las Setas 傍晚 / 夜景
+
+今天把 **Las Setas** 升级为正常体力建议去的傍晚 / 夜景项目。它和 Alcázar 后向北的路线自然衔接，不需要跨城折返。
 
 ## 晚上｜Sevilla 最后一晚
 
@@ -1368,11 +1392,7 @@ Cruz**\
 **Santa Cruz / Centro** - El Pasaje Tapas - El Librero - 当天顺眼的
 Andalusian restaurant
 
-**如果愿意去 Triana** - Restaurante De Triana - Bar Triana - La
-Turruñuela Vinos y Tapas - Turuleta Triana
-
-> 如果前几天一直没去 Triana，今晚可过河吃饭 +
-> 河边走走；如果累，就不要为了"打卡 Triana"跨河。
+Triana 已放在 10/3 主线，今晚不再把它作为固定方向；按 Las Setas / Centro 最终落点吃饭即可。
 
 ### 🌧️ Plan B
 
@@ -1539,19 +1559,14 @@ Central P7｜Fila 2｜Butaca 4** - ✅ 已付款
 
 ------------------------------------------------------------------------
 
-# ⏳ 待办 / 待开放
+# ✅ Córdoba 核心票已闭环
 
 ## 10/4｜Mezquita-Catedral de Córdoba
 
-当前官方日历最多开放到 9 月底。
-
-**目标：** - 2026/10/4 - 普通日间参观票 - 优先 **10:00--11:00 左右** -
-不优先 Bell Tower
-
-**状态：⏳ 已安排自动检查开放情况**
-
-开放后： 1. 确认 10/4 可购 2. 看 10:00--11:00 时段 3. 锁 Mezquita 4.
-再按实际票面时间微调 Judería / Alcázar / 午饭
+-   日期：2026/10/4
+-   时间：**10:00**
+-   票种：普通日间参观
+-   状态：✅ 已订
 
 ------------------------------------------------------------------------
 
@@ -1562,7 +1577,7 @@ Central P7｜Fila 2｜Butaca 4** - ✅ 已付款
 -   [ ] Bienal 电子票离线下载
 -   [ ] Cathedral + Giralda 电子票下载
 -   [ ] Córdoba 往返火车票下载
--   [ ] Mezquita 10/4 门票购买并下载
+-   [ ] Mezquita 10/4 10:00 门票下载 / 离线保存
 -   [ ] Real Alcázar + Cuarto Real Alto 电子票下载
 -   [ ] OUIGO Sevilla → Madrid 车票下载
 
@@ -1607,12 +1622,10 @@ Sevilla 行程。**
 # PART C｜Madrid 详细攻略
 
 **旅行日期：2026/10/6--10/9（10/9 00:35 航班）**\
-**节奏：约 7/10｜老城与城市生活 + 皇室 Madrid + 艺术双馆收尾**
+**节奏：约 7.5/10｜A 级硬预约 + B 级顺路街区 + C 级有余力再加**
 
-> **使用方法**：Madrid
-> 是整趟西班牙旅行的最后一站。核心原则不是继续"清地图"，而是把第一次来真正值得看的东西看掉，同时给最后两晚留出
-> Madrid 自己的城市感。固定预约按时到；没有预约的下午就不要主动制造
-> KPI。
+> **使用方法**：Madrid 是整趟西班牙旅行的最后一站。A 级固定预约按时到；B 级正常体力顺路完成；C 级现场再决定。
+> 继续坚持同一区域串联，额外移动尽量控制在约 20--30 分钟内，不主动制造跨区折返和新的 KPI。
 
 ------------------------------------------------------------------------
 
@@ -1648,18 +1661,17 @@ Sevilla 行程。**
 ## 🧭 三天的城市逻辑
 
 -   **10/6｜老 Madrid**：Sol → Plaza Mayor → Madrid de los Austrias →
-    Debod 日落 → La Latina tapas
--   **10/7｜Royal Madrid + 自由 Madrid**：Royal Palace → Almudena → 午饭
-    → Gran Vía / Malasaña / Chueca
+    Plaza de Oriente / Plaza de España → Debod → Gran Vía
+-   **10/7｜Royal Madrid + 城市街区**：Royal Palace → Plaza de Oriente → Almudena → 午饭
+    → Plaza de España → Gran Vía → Malasaña / Chueca
 -   **10/8｜Art Madrid + 旅行终章**：Prado → 午饭 → Retiro → Reina Sofía
     → 最后一顿 Madrid 晚餐 → 机场
 
 ------------------------------------------------------------------------
 
-# 10/6｜抵达 Madrid + 老城 + Debod + La Latina
+# 10/6｜抵达 Madrid + 老城 + Debod + Gran Vía
 
-**📍活动区域：Madrid Centro → Sol / Plaza Mayor → Austrias → Debod → La
-Latina**\
+**📍活动区域：Madrid Centro → Sol / Plaza Mayor → Austrias → Plaza de Oriente / Plaza de España → Debod → Gran Vía**\
 **💡 今日策略：13:16 才到，不设预约。下午靠步行认识
 Madrid，火车晚点也不会毁掉任何东西。**
 
@@ -1679,7 +1691,7 @@ Madrid，火车晚点也不会毁掉任何东西。**
 推荐自然步行动线：
 
 **Puerta del Sol → Plaza Mayor → Mercado de San Miguel → Madrid de los
-Austrias**
+Austrias → Plaza de Oriente → Plaza de España**
 
 ### Puerta del Sol
 
@@ -1709,27 +1721,26 @@ Austrias**
 今天不追求每条街叫什么，重点是第一次感受 Madrid
 老城尺度、建筑和街道氛围。
 
-## 傍晚｜Temple of Debod
+## 傍晚｜B 级：Temple of Debod
 
 下午慢慢往 **Plaza de España / Temple of Debod** 方向移动。
 
 ### 🌇 Temple of Debod
 
-天气好就把它当今天的 sunset spot。
+天气好就把它当今天的 B 级 sunset spot。
 
 玩法： - 不需要专门研究神庙内部 - 重点是外围、公园和傍晚光线 -
 提前一点到，找地方坐
 
-如果当天多云 / 下雨：**直接放弃 sunset 任务**，把时间给 Gran Vía、café
-或 La Latina。
+如果当天多云 / 下雨：**直接放弃 sunset 任务**，把时间给 Gran Vía、café 或早点吃饭。
 
-## 晚上｜La Latina tapas
+## 晚上｜Debod → Plaza de España → Gran Vía
 
-Debod 后回到 La Latina 一带。
+看完 Debod 后不要再专门折返回 La Latina。更顺的收尾是：
 
-Madrid 官方旅游资料本身就把 La Latina 视为传统 Madrid 和 tapas
-的代表区域，尤其 Cava Baja / Cava Alta
-一带非常适合今晚这种"不预约、边走边吃"的玩法。
+**Debod → Plaza de España → Gran Vía 夜景 / 晚饭**
+
+如果很想体验 La Latina，可以在 Sol / Plaza Mayor 段顺路去，或另找自然经过的时机；不把它设成 Debod 后的固定折返。
 
 ### 🍷 今晚正确打开方式
 
@@ -1748,17 +1759,13 @@ Madrid 官方旅游资料本身就把 La Latina 视为传统 Madrid 和 tapas
 可以尝： - Bocadillo de calamares - Patatas bravas - Croquetas - Huevos
 rotos - Boquerones - Jamón / queso - Vermut
 
-### ⭐ 体力好就加
+### C 级｜rooftop
 
--   Cava Baja / Cava Alta
--   Plaza de la Paja
--   Las Vistillas
--   晚上再绕 Sol / Plaza Mayor 看夜景
+若到 Gran Vía 后仍有精神，可选一个 rooftop 喝一杯、看夜景；不再加第二个观景点。
 
 ### 🌧️ Plan B
 
-如果天气差： - Sol / Plaza Mayor / Mercado San Miguel - café - 提前去 La
-Latina - Debod 直接砍
+如果天气差： - Sol / Plaza Mayor / Mercado San Miguel - café - Gran Vía 提前吃饭 - Debod 直接砍
 
 今天没有票，**天气不好就大胆改。**
 
@@ -1797,9 +1804,9 @@ Chapel - 宴会 / 王室空间 - 现场实际开放区域
 
 > 皇宫仍用于国家和王室活动，现场开放区域可能因官方活动调整，以当天为准。
 
-## 中午前｜Almudena Cathedral
+## 中午前｜Plaza de Oriente → Almudena Cathedral
 
-皇宫出来直接去对面的 **Catedral de la Almudena**。
+皇宫出来先看 **Plaza de Oriente**，再去对面的 **Catedral de la Almudena**。
 
 建议约 **30--45 分钟**。
 
@@ -1816,7 +1823,7 @@ Chapel - 宴会 / 王室空间 - 现场实际开放区域
 
 找一家顺路的。
 
-如果 10/6 已经认真吃过 La Latina，今天就不需要再复制一遍。
+如果前一天下午已经顺路去过 La Latina，今天就不需要再复制一遍。
 
 ## 下午｜自由 Madrid
 
@@ -1824,7 +1831,7 @@ Chapel - 宴会 / 王室空间 - 现场实际开放区域
 
 推荐主线：
 
-**Centro → Gran Vía → Malasaña / Chueca**
+**Plaza de España → Gran Vía → Malasaña → Chueca**
 
 ### Gran Vía
 
@@ -1833,15 +1840,15 @@ Chapel - 宴会 / 王室空间 - 现场实际开放区域
 适合： - 看城市建筑 - shopping - café - rooftop - 感受 Madrid
 大城市的一面
 
-### Malasaña
+### B 级｜Malasaña
 
 偏年轻、独立小店、咖啡、酒吧、街区感。
 
-### Chueca
+### C 级｜Chueca
 
 更热闹，餐饮、商店、夜生活选择多。
 
-不需要 Malasaña + Chueca 全走完。
+Malasaña 正常体力建议去；Chueca 有余力再继续，不要求两个街区都走完。
 
 > **下午的价值就在于没有下一张票。**
 
@@ -1858,12 +1865,12 @@ Chapel - 宴会 / 王室空间 - 现场实际开放区域
 饭后： - Gran Vía 夜景 - rooftop drink - Sol 夜间散步 -
 或直接回酒店休息，为 10/8 双馆留体力
 
-### ⭐ 体力好就加
+### C 级｜rooftop 二选一
 
--   Plaza de España
 -   Gran Vía rooftop
--   回 Sol 看夜景
--   shopping
+-   Círculo de Bellas Artes rooftop
+
+只选一个，不安排两个 rooftop；也可以完全不去。
 
 ### 🌧️ Plan B
 
@@ -1881,6 +1888,8 @@ Chapel - 宴会 / 王室空间 - 现场实际开放区域
 机场**\
 **💡 今日策略：上午把最好的精神状态给 Prado；Retiro 是缓冲区；Reina
 Sofía 精选看。晚上不再追景点。**
+
+今天只允许顺路小加 **Puerta de Alcalá / Cibeles / Paseo del Prado**；继续不加 Thyssen、Royal Collections Gallery、Bernabéu 或任何新大馆。
 
 ## 上午｜退房 + 寄存行李
 
@@ -1937,6 +1946,8 @@ Prado 出来先吃饭。
 不要一出馆立刻冲 Retiro。
 
 上午已经连续看了三小时左右艺术，午饭是必要的脑子重启。
+
+顺路可看 **Puerta de Alcalá / Cibeles / Paseo del Prado**，但只作为沿途小加，不为它们绕路或压缩两馆时间。
 
 ## 下午前段｜Retiro Park
 
@@ -2076,11 +2087,11 @@ Madrid 风格炖牛肚。
 
 # 🍴 按区域选餐厅的原则
 
-## La Latina｜10/6 晚上重点区域
+## La Latina｜顺路时再去
 
 优先街区： - Cava Baja - Cava Alta - Plaza de la Paja - Calle del Nuncio
 
-玩法：**tapas hopping \> 单一正式餐厅。**
+若在 Sol / Plaza Mayor 段自然经过，可以体验；不从 Debod 专门折返。玩法：**tapas hopping \> 单一正式餐厅。**
 
 ## Plaza Mayor / Sol
 
@@ -2162,6 +2173,10 @@ Madrid 艺术金三角的第三馆当然很强。
 本身不错，但 10/7 已经有皇宫，10/8 又是双美术馆。
 
 **不去不算遗憾。**
+
+## 新大馆 / 其他大型新项目
+
+这次不加。10/8 的结构保持 **Prado → 午饭 → Retiro 动态伸缩 → Reina Sofía → 晚饭 / 取行李 / 机场**。
 
 ## Toledo / Segovia 一日游
 
@@ -2284,8 +2299,7 @@ Madrid 则是：
 
 所以 Madrid 不需要再增加一个 Toledo，也不需要集齐所有博物馆。
 
-皇宫、老城、Prado、Retiro、Reina Sofía、La Latina、Gran
-Vía，以及两个没有下一场预约催你的 Madrid 夜晚------已经足够完整。
+皇宫、老城、Prado、Retiro、Reina Sofía、Gran Vía，以及两个没有下一场预约催你的 Madrid 夜晚------已经足够完整；La Latina 顺路去即可。
 
 **10/8 从 Reina Sofía 出来以后，就别再想着还有什么没打卡了。**
 
