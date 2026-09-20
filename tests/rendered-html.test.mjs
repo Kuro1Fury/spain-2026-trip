@@ -43,6 +43,8 @@ test("public build contains all quick links but no identity data", async () => {
   assert.match(output, /Guernica/);
   assert.match(output, /drive\.google\.com/);
   assert.match(output, /1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/);
+  assert.match(output, /1DvGcWF3irX6jfdkiiAfgoDL72GkWg1d1/);
+  assert.match(output, /1Un1jBEMfBDCMvYqtsz_kuGl0n1rvEHh6/);
   assert.match(output, /10DXUPjXP4_xF7f-HbUhxmgaZGlPucI1E/);
   assert.match(output, /12ka8nWZ1WYeseKwx0Ay4JXGjOFhCU0ty/);
   assert.doesNotMatch(output, /notion\.so|app\.notion\.com/i);

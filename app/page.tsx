@@ -103,11 +103,11 @@ const ticketItems = [
   { label: "0928 巴特罗之家", url: "https://drive.google.com/file/d/1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/view?usp=sharing" },
   { label: "0928 米拉之家", url: "https://drive.google.com/file/d/13TuoyA4Whx7SJqWnbhC3hX1rSQjH_2_s/view?usp=sharing" },
   { label: "0929 奎尔公园", url: "https://drive.google.com/file/d/1HYpOoKO56BQF7ln52BMacaQc0TVsOkCh/view?usp=sharing" },
-  { label: "0930 蒙塞拉特" },
+  { label: "0930 蒙塞拉特", url: "https://drive.google.com/file/d/1DvGcWF3irX6jfdkiiAfgoDL72GkWg1d1/view?usp=drive_link" },
   { label: "1001 圣家堂", url: "https://drive.google.com/file/d/10YH6D77-85DPSdvKnENjvTXiNY-9NCTv/view?usp=sharing" },
   { label: "1002 晚间表演", url: "https://drive.google.com/file/d/1AGo-MESzIqx--Sdo8e0HaQOiSs8s7uxE/view?usp=sharing" },
   { label: "1003 塞维利亚主教座堂", url: "https://drive.google.com/file/d/1IU_tOV2Es4oV5vBCEmmSyoRWXzJKUqHX/view?usp=sharing" },
-  { label: "1004 科尔多瓦清真寺" },
+  { label: "1004 科尔多瓦清真寺", url: "https://drive.google.com/file/d/1Un1jBEMfBDCMvYqtsz_kuGl0n1rvEHh6/view?usp=drive_link" },
   { label: "1005 塞维利亚王宫", url: "https://drive.google.com/file/d/1_8qFpLwB46APp8EMSuxWHxfPUL5Uc4Gp/view?usp=sharing" },
   { label: "1007 马德里皇宫", url: "https://drive.google.com/file/d/1cT7k_MUtSCCgiLSXUQMblF8A4AwkLkTO/view?usp=sharing" },
   { label: "1008 普拉多博物馆", url: "https://drive.google.com/file/d/1Rmbw8OiLL3KMY3jOQlg-vCrtLGOi7xbs/view?usp=sharing" },
@@ -304,7 +304,7 @@ export default function Home() {
         </section>
       )}
 
-      {activeTab === "tickets" && <section className="content links-section" role="tabpanel"><div className="section-heading"><div><p className="mini-label">QUICK ACCESS</p><h2>景点门票</h2></div><p>点击后直接打开对应的 Google Drive 文件；两个尚未确认的项目暂时标记为 TBD。</p></div><QuickLinkList items={ticketItems} /></section>}
+      {activeTab === "tickets" && <section className="content links-section" role="tabpanel"><div className="section-heading"><div><p className="mini-label">QUICK ACCESS</p><h2>景点门票</h2></div><p>点击后直接打开对应的 Google Drive 文件。</p></div><QuickLinkList items={ticketItems} /></section>}
       {activeTab === "transit" && <section className="content links-section" role="tabpanel"><div className="section-heading"><div><p className="mini-label">ON THE MOVE</p><h2>城际交通</h2></div><p>点击即可打开对应的航班或铁路电子文件。</p></div><QuickLinkList items={transitItems} /></section>}
       {activeTab === "documents" && <section className="content links-section" role="tabpanel"><div className="section-heading"><div><p className="mini-label">ESSENTIAL DOCS</p><h2>重要文件</h2></div><p>旅行途中需要快速查阅的保险及其他重要材料。</p></div><QuickLinkList items={documentItems} /></section>}
 
