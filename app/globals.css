@@ -282,6 +282,31 @@ button { color: inherit; }
 .link-editor button { border: 0; background: var(--green); color: white; padding: 10px 12px; border-radius: 8px; cursor: pointer; }
 .link-editor button.ghost { background: transparent; color: var(--ink); }
 
+.baggage-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 54px; }
+.baggage-summary article { min-height: 180px; padding: 24px; border: 1px solid var(--line); background: var(--cream); box-shadow: 5px 5px 0 rgba(24,35,31,.07); }
+.baggage-summary span { display: block; margin-bottom: 18px; color: var(--red); font-size: 10px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; }
+.baggage-summary strong { display: block; font-family: Georgia, "Noto Serif SC", serif; font-size: 25px; line-height: 1.2; font-weight: 500; }
+.baggage-summary p { margin: 15px 0 0; color: rgba(24,35,31,.64); font-size: 13px; line-height: 1.65; }
+.packing-documents { display: grid; grid-template-columns: 220px 1fr; gap: 32px; align-items: start; margin-bottom: 54px; }
+.packing-documents h3 { margin: 8px 0 0; font-family: Georgia, "Noto Serif SC", serif; font-size: 34px; font-weight: 500; }
+.packing-progress { position: sticky; top: 72px; z-index: 7; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; margin-bottom: 24px; padding: 14px 18px; border: 1px solid var(--line); background: rgba(251,248,240,.96); backdrop-filter: blur(12px); }
+.packing-progress > div:first-child { display: flex; align-items: baseline; gap: 8px; white-space: nowrap; }
+.packing-progress strong { font-size: 18px; }
+.packing-progress span { color: rgba(24,35,31,.58); font-size: 12px; }
+.progress-track { height: 8px; overflow: hidden; border-radius: 999px; background: rgba(24,35,31,.1); }
+.progress-track i { display: block; height: 100%; border-radius: inherit; background: var(--green); transition: width .2s ease; }
+.packing-progress button { min-height: 38px; border: 1px solid var(--line); border-radius: 999px; background: transparent; padding: 7px 12px; cursor: pointer; font-size: 12px; font-weight: 750; }
+.packing-progress button:disabled { opacity: .35; cursor: default; }
+.packing-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.packing-group { border: 1px solid var(--line); background: var(--cream); }
+.packing-group h3 { margin: 0; padding: 21px 22px; border-bottom: 1px solid var(--line); font-family: Georgia, "Noto Serif SC", serif; font-size: 25px; font-weight: 500; }
+.packing-group label { min-height: 58px; display: flex; align-items: flex-start; gap: 12px; padding: 14px 20px; border-bottom: 1px solid rgba(24,35,31,.08); cursor: pointer; line-height: 1.55; touch-action: manipulation; }
+.packing-group label:last-child { border-bottom: 0; }
+.packing-group label:hover { background: rgba(31,103,84,.05); }
+.packing-group label.checked { color: rgba(24,35,31,.45); background: rgba(31,103,84,.06); text-decoration: line-through; text-decoration-thickness: 1px; }
+.packing-group input { flex: 0 0 auto; width: 20px; height: 20px; margin: 1px 0 0; accent-color: var(--green); cursor: pointer; }
+.packing-group label span { font-size: 14px; }
+
 footer { background: var(--ink); color: var(--cream); min-height: 210px; display: flex; align-items: center; justify-content: space-between; padding: 40px max(24px, calc((100vw - 1180px) / 2)); }
 footer span { font-family: Georgia, serif; font-size: clamp(52px, 8vw, 102px); font-style: italic; letter-spacing: -.06em; color: #eea342; }
 footer p { margin: 0; color: rgba(251,248,240,.58); font-size: 12px; }
@@ -342,6 +367,15 @@ footer p { margin: 0; color: rgba(251,248,240,.58); font-size: 12px; }
   .private-name { min-width: 0; padding-top: 0; gap: 11px; font-size: 14px; }
   .private-name > span:last-child { line-height: 1.4; }
   .row-link-label { padding: 10px 12px; font-size: 11px; }
+  .baggage-summary { grid-template-columns: 1fr; gap: 10px; margin-bottom: 44px; }
+  .baggage-summary article { min-height: 0; padding: 20px; }
+  .packing-documents { grid-template-columns: 1fr; gap: 16px; margin-bottom: 44px; }
+  .packing-progress { top: 0; grid-template-columns: 1fr auto; gap: 10px; margin: 0 -14px 20px; padding: 11px 14px; border-left: 0; border-right: 0; }
+  .packing-progress .progress-track { grid-column: 1 / -1; grid-row: 2; }
+  .packing-progress button { min-height: 44px; }
+  .packing-groups { grid-template-columns: 1fr; gap: 14px; }
+  .packing-group h3 { padding: 18px; font-size: 23px; }
+  .packing-group label { min-height: 54px; padding: 13px 16px; }
   .link-editor { min-width: 0; width: 58%; flex-wrap: wrap; }
   .link-editor input { width: 100%; min-width: 0; }
   .back-to-top { bottom: calc(82px + env(safe-area-inset-bottom)); min-height: 44px; display: flex; align-items: center; }

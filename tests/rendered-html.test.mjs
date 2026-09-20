@@ -45,6 +45,10 @@ test("public build contains all quick links but no identity data", async () => {
   assert.match(output, /Turó de la Rovira/);
   assert.match(output, /Las Setas/);
   assert.match(output, /Mezquita-Catedral[^]*10:00/);
+  assert.match(output, /行前清单/);
+  assert.match(output, /40 × 30 × 20cm/);
+  assert.match(output, /相机机身/);
+  assert.match(output, /spain-2026-packing/);
   assert.match(output, /drive\.google\.com/);
   assert.match(output, /1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/);
   assert.match(output, /1DvGcWF3irX6jfdkiiAfgoDL72GkWg1d1/);

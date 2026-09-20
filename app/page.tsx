@@ -1,7 +1,7 @@
 "use client";
 
 import { marked } from "marked";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { extractSection } from "../lib/itinerary-sections.mjs";
 import itineraryMarkdown from "../content/itinerary.md?raw";
 
@@ -125,12 +125,118 @@ const documentItems = [
   { label: "旅行保险保单", url: "https://drive.google.com/file/d/12ka8nWZ1WYeseKwx0Ay4JXGjOFhCU0ty/view?usp=sharing" },
 ];
 
+const packingGroups = [
+  {
+    title: "出发前确认",
+    items: [
+      ["confirm-ryanair-bag", "Ryanair 随身只带 1 件包，外部尺寸不超过 40 × 30 × 20cm"],
+      ["confirm-ryanair-weight", "Barcelona → Sevilla 前将 25 寸托运行李控制在 19–19.5kg"],
+      ["confirm-airchina", "确认国航订单显示 1 件 23kg 托运行李，并在柜台确认行李直挂"],
+      ["confirm-ouigo", "确认 OUIGO 车票标有 Equipaje adicional / XL 或已包含大件行李"],
+      ["confirm-powerbank", "确认充电宝有清晰 3C / CCC、容量标识，且不属于召回批次"],
+      ["confirm-offline", "全部机票、火车票、门票、酒店订单与保单已离线保存"],
+      ["confirm-maps", "离线地图已下载，酒店、车站、机场航站楼和景点入口已收藏"],
+    ],
+  },
+  {
+    title: "证件与资金",
+    items: [
+      ["doc-passport", "护照原件"],
+      ["doc-visa", "申根签证及护照资料页复印件"],
+      ["doc-insurance", "旅行保险保单与紧急联系电话"],
+      ["doc-tickets", "机票、火车票和景点电子票"],
+      ["doc-hotels", "酒店订单、地址与入住说明"],
+      ["money-main-card", "主要银行卡"],
+      ["money-backup-card", "备用银行卡，与主卡分开放"],
+      ["money-cash", "少量欧元现金和小面额纸币"],
+    ],
+  },
+  {
+    title: "随身数码设备",
+    items: [
+      ["tech-phone", "手机与手机壳"],
+      ["tech-ipad", "iPad 与保护套"],
+      ["tech-switch", "Switch、保护盒及游戏卡 / 离线游戏"],
+      ["tech-earbuds", "耳机与充电盒"],
+      ["tech-powerbank", "充电宝（随身，不托运、不放头顶行李架）"],
+      ["tech-charger", "65W 以上多口氮化镓充电器"],
+      ["tech-adapters", "欧标转换插头 2 个"],
+      ["tech-cables", "USB-C 等所需充电线 2–3 根"],
+      ["tech-tracker", "AirTag 或其他行李追踪器"],
+      ["tech-organizer", "数码配件收纳包"],
+    ],
+  },
+  {
+    title: "相机装备",
+    items: [
+      ["camera-body", "相机机身"],
+      ["camera-lens", "镜头、前盖与遮光罩"],
+      ["camera-strap", "相机背带或腕带"],
+      ["camera-batteries", "相机电池 2–3 块，备用电池分别绝缘保护"],
+      ["camera-charger", "相机电池充电器"],
+      ["camera-cards", "SD 卡 2–3 张，备用卡分开放"],
+      ["camera-clean", "镜头布、小气吹或清洁笔"],
+      ["camera-rain", "相机防雨罩或大号密封袋"],
+      ["camera-insert", "相机内胆，放入唯一的随身双肩包"],
+      ["camera-reader", "iPad 读卡器或相机数据线"],
+      ["camera-backup", "小型 SSD 或足够的 iPad 存储空间（可选）"],
+    ],
+  },
+  {
+    title: "衣物",
+    items: [
+      ["clothes-tees", "短袖 4–5 件"],
+      ["clothes-longs", "长袖 1–2 件"],
+      ["clothes-layer", "薄针织衫或卫衣 1 件"],
+      ["clothes-jacket", "轻便防风外套 1 件，Montserrat 使用"],
+      ["clothes-pants", "长裤 2–3 条"],
+      ["clothes-underwear", "内衣 7–8 套"],
+      ["clothes-socks", "袜子 7–8 双"],
+      ["clothes-sleep", "睡衣 1 套"],
+      ["clothes-shoes", "主力步行鞋 1 双"],
+      ["clothes-spare-shoes", "轻便备用鞋 1 双"],
+      ["clothes-weather", "帽子、墨镜、折叠伞或轻量雨衣"],
+      ["clothes-laundry", "脏衣袋与小包装洗衣液"],
+    ],
+  },
+  {
+    title: "洗护、药品与日用品",
+    items: [
+      ["care-tooth", "牙刷、牙膏与基础洗护"],
+      ["care-skin", "护肤品、防晒霜与润唇膏"],
+      ["care-glasses", "眼镜 / 隐形眼镜及护理液"],
+      ["care-tissues", "纸巾、湿巾与免洗洗手液"],
+      ["care-bags", "密封袋、折叠购物袋与可折叠水瓶"],
+      ["med-personal", "个人处方药及原包装"],
+      ["med-basic", "止痛退烧药、肠胃药、止泻药与抗过敏药"],
+      ["med-motion", "晕车药（如需要）"],
+      ["med-firstaid", "创可贴、水泡贴与碘伏棉签"],
+      ["med-electrolyte", "电解质冲剂（可选）"],
+    ],
+  },
+  {
+    title: "装箱与出门前",
+    items: [
+      ["pack-carry", "相机、镜头、iPad、Switch、充电宝、电池、证件和药物全部放随身包"],
+      ["pack-checked", "衣物、洗护、备用鞋和折叠相机包放托运行李"],
+      ["pack-camera-bag", "相机包不作为 Ryanair 第二件随身行李出现"],
+      ["pack-liquids", "随身液体单瓶不超过 100ml，并放入透明袋"],
+      ["pack-weigh", "使用行李秤称重并给秤误差留余量"],
+      ["pack-charge", "出发前一晚给手机、相机电池、iPad、Switch和耳机充满电"],
+      ["pack-storage", "清理手机、相机卡和 iPad 存储空间"],
+      ["pack-home", "关闭不必要电器，检查门窗、垃圾与冰箱"],
+    ],
+  },
+] as const;
+
+const packingTotal = packingGroups.reduce((total, group) => total + group.items.length, 0);
+
 const tabs: Array<{ id: Tab; label: string; icon: string }> = [
   { id: "summary", label: "总行程", icon: "路线" },
   { id: "guide", label: "完整攻略", icon: "原文" },
   { id: "tickets", label: "景点门票", icon: "门票" },
   { id: "transit", label: "城际交通", icon: "交通" },
-  { id: "documents", label: "重要文件", icon: "文件" },
+  { id: "documents", label: "行前清单", icon: "准备" },
 ];
 
 const outline = [
@@ -214,7 +320,38 @@ function QuickLinkList({ items }: { items: Array<{ label: string; url?: string }
 export default function Home() {
   const [activeTab, setActiveTab] = useState<Tab>("summary");
   const [selectedDay, setSelectedDay] = useState<string | null>(null);
+  const [checkedPacking, setCheckedPacking] = useState<Record<string, boolean>>({});
   const currentDay = days.find((day) => day.id === selectedDay);
+  const packingDone = Object.values(checkedPacking).filter(Boolean).length;
+
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      try {
+        const saved = window.localStorage.getItem("spain-2026-packing");
+        if (saved) setCheckedPacking(JSON.parse(saved));
+      } catch {
+        // A blocked storage setting should not prevent the checklist from working.
+      }
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, []);
+
+  function togglePacking(id: string) {
+    setCheckedPacking((current) => {
+      const next = { ...current, [id]: !current[id] };
+      try { window.localStorage.setItem("spain-2026-packing", JSON.stringify(next)); } catch {
+        // Keep the in-memory checklist usable when storage is unavailable.
+      }
+      return next;
+    });
+  }
+
+  function resetPacking() {
+    setCheckedPacking({});
+    try { window.localStorage.removeItem("spain-2026-packing"); } catch {
+      // The visible checklist has already been reset.
+    }
+  }
 
   function showDay(id: string | null) {
     setSelectedDay(id);
@@ -306,7 +443,47 @@ export default function Home() {
 
       {activeTab === "tickets" && <section className="content links-section" role="tabpanel"><div className="section-heading"><div><p className="mini-label">QUICK ACCESS</p><h2>景点门票</h2></div><p>点击后直接打开对应的 Google Drive 文件。</p></div><QuickLinkList items={ticketItems} /></section>}
       {activeTab === "transit" && <section className="content links-section" role="tabpanel"><div className="section-heading"><div><p className="mini-label">ON THE MOVE</p><h2>城际交通</h2></div><p>点击即可打开对应的航班或铁路电子文件。</p></div><QuickLinkList items={transitItems} /></section>}
-      {activeTab === "documents" && <section className="content links-section" role="tabpanel"><div className="section-heading"><div><p className="mini-label">ESSENTIAL DOCS</p><h2>重要文件</h2></div><p>旅行途中需要快速查阅的保险及其他重要材料。</p></div><QuickLinkList items={documentItems} /></section>}
+      {activeTab === "documents" && (
+        <section className="content packing-section" role="tabpanel">
+          <div className="section-heading">
+            <div><p className="mini-label">PACK & GO</p><h2>行前清单</h2></div>
+            <p>按当前设备和行李额度整理。勾选状态会保存在这台设备上；换手机或清除浏览器数据后会重新开始。</p>
+          </div>
+
+          <div className="baggage-summary" aria-label="行李额度摘要">
+            <article><span>随身</span><strong>1 件 · 40 × 30 × 20cm</strong><p>相机、iPad、Switch、电池与证件全部装进同一个座椅下双肩包。</p></article>
+            <article><span>Ryanair 托运</span><strong>1 件 · 20kg</strong><p>25 寸箱符合尺寸；Barcelona 出发前建议控制在 19–19.5kg。</p></article>
+            <article><span>火车 / 回国</span><strong>OUIGO 25kg · 国航 23kg</strong><p>OUIGO 已升级大件行李；Madrid 回国前建议不超过 22.5kg。</p></article>
+          </div>
+
+          <div className="packing-documents">
+            <div><p className="mini-label">ESSENTIAL DOCS</p><h3>重要文件</h3></div>
+            <QuickLinkList items={documentItems} />
+          </div>
+
+          <div className="packing-progress" aria-live="polite">
+            <div><strong>{packingDone} / {packingTotal}</strong><span>已完成</span></div>
+            <div className="progress-track" aria-hidden="true"><i style={{ width: `${(packingDone / packingTotal) * 100}%` }} /></div>
+            <button type="button" onClick={resetPacking} disabled={packingDone === 0}>清空勾选</button>
+          </div>
+
+          <div className="packing-groups">
+            {packingGroups.map((group) => (
+              <section className="packing-group" key={group.title}>
+                <h3>{group.title}</h3>
+                <div>
+                  {group.items.map(([id, label]) => (
+                    <label className={checkedPacking[id] ? "checked" : ""} key={id}>
+                      <input type="checkbox" checked={Boolean(checkedPacking[id])} onChange={() => togglePacking(id)} />
+                      <span>{label}</span>
+                    </label>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+        </section>
+      )}
 
       <footer><span>Buen viaje</span><p>Made for a slow journey across Spain · 2026</p></footer>
     </main>
