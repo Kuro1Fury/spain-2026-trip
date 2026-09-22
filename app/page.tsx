@@ -162,24 +162,13 @@ const packingGroups = [
       ["tech-charger", "65W 以上多口氮化镓充电器"],
       ["tech-adapters", "欧标转换插头 2 个"],
       ["tech-cables", "USB-C 等所需充电线 2–3 根"],
-      ["tech-tracker", "AirTag 或其他行李追踪器"],
-      ["tech-organizer", "数码配件收纳包"],
     ],
   },
   {
     title: "相机装备",
     items: [
-      ["camera-body", "相机机身"],
-      ["camera-lens", "镜头、前盖与遮光罩"],
-      ["camera-strap", "相机背带或腕带"],
-      ["camera-batteries", "相机电池 2–3 块，备用电池分别绝缘保护"],
-      ["camera-charger", "相机电池充电器"],
-      ["camera-cards", "SD 卡 2–3 张，备用卡分开放"],
-      ["camera-clean", "镜头布、小气吹或清洁笔"],
-      ["camera-rain", "相机防雨罩或大号密封袋"],
-      ["camera-insert", "相机内胆，放入唯一的随身双肩包"],
-      ["camera-reader", "iPad 读卡器或相机数据线"],
-      ["camera-backup", "小型 SSD 或足够的 iPad 存储空间（可选）"],
+      ["camera", "相机（一个镜头）"],
+      ["camera-charger", "相机充电器"],
     ],
   },
   {
@@ -195,6 +184,8 @@ const packingGroups = [
       ["clothes-sleep", "睡衣 1 套"],
       ["clothes-shoes", "主力步行鞋 1 双"],
       ["clothes-spare-shoes", "轻便备用鞋 1 双"],
+      ["clothes-slippers", "拖鞋"],
+      ["clothes-padded-slippers", "棉拖"],
       ["clothes-weather", "帽子、墨镜、折叠伞或轻量雨衣"],
       ["clothes-laundry", "脏衣袋与小包装洗衣液"],
     ],
@@ -204,26 +195,23 @@ const packingGroups = [
     items: [
       ["care-tooth", "牙刷、牙膏与基础洗护"],
       ["care-skin", "护肤品、防晒霜与润唇膏"],
-      ["care-glasses", "眼镜 / 隐形眼镜及护理液"],
+      ["care-personal", "个人用品"],
       ["care-tissues", "纸巾、湿巾与免洗洗手液"],
-      ["care-bags", "密封袋、折叠购物袋与可折叠水瓶"],
       ["med-personal", "个人处方药及原包装"],
       ["med-basic", "止痛退烧药、肠胃药、止泻药与抗过敏药"],
-      ["med-motion", "晕车药（如需要）"],
-      ["med-firstaid", "创可贴、水泡贴与碘伏棉签"],
       ["med-electrolyte", "电解质冲剂（可选）"],
     ],
   },
   {
     title: "装箱与出门前",
     items: [
-      ["pack-carry", "相机、镜头、iPad、Switch、充电宝、电池、证件和药物全部放随身包"],
+      ["pack-carry", "相机、iPad、Switch、充电宝、证件和药物全部放随身包"],
       ["pack-checked", "衣物、洗护、备用鞋和折叠相机包放托运行李"],
       ["pack-camera-bag", "相机包不作为 Ryanair 第二件随身行李出现"],
       ["pack-liquids", "随身液体单瓶不超过 100ml，并放入透明袋"],
       ["pack-weigh", "使用行李秤称重并给秤误差留余量"],
-      ["pack-charge", "出发前一晚给手机、相机电池、iPad、Switch和耳机充满电"],
-      ["pack-storage", "清理手机、相机卡和 iPad 存储空间"],
+      ["pack-charge", "出发前一晚给手机、相机、iPad、Switch和耳机充满电"],
+      ["pack-storage", "清理手机、相机和 iPad 存储空间"],
       ["pack-home", "关闭不必要电器，检查门窗、垃圾与冰箱"],
     ],
   },
@@ -451,7 +439,7 @@ export default function Home() {
           </div>
 
           <div className="baggage-summary" aria-label="行李额度摘要">
-            <article><span>随身</span><strong>1 件 · 40 × 30 × 20cm</strong><p>相机、iPad、Switch、电池与证件全部装进同一个座椅下双肩包。</p></article>
+            <article><span>随身</span><strong>1 件 · 40 × 30 × 20cm</strong><p>相机、iPad、Switch、充电宝与证件全部装进同一个座椅下双肩包。</p></article>
             <article><span>Ryanair 托运</span><strong>1 件 · 20kg</strong><p>25 寸箱符合尺寸；Barcelona 出发前建议控制在 19–19.5kg。</p></article>
             <article><span>火车 / 回国</span><strong>OUIGO 25kg · 国航 23kg</strong><p>OUIGO 已升级大件行李；Madrid 回国前建议不超过 22.5kg。</p></article>
           </div>
