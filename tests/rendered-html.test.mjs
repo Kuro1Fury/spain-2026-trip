@@ -51,7 +51,13 @@ test("public build contains all quick links but no identity data", async () => {
   assert.match(output, /相机充电器/);
   assert.match(output, /棉拖/);
   assert.match(output, /个人用品/);
+  assert.match(output, /随身双肩包/);
+  assert.match(output, /双肩包防盗锁/);
+  assert.match(output, /iPad 扩展坞/);
+  assert.match(output, /SIM 卡与取卡针/);
+  assert.match(output, /备用手机/);
   assert.doesNotMatch(output, /AirTag|数码配件收纳包|晕车药|创可贴/);
+  assert.doesNotMatch(output, /折叠相机包|相机包不作为/);
   assert.match(output, /spain-2026-packing/);
   assert.match(output, /drive\.google\.com/);
   assert.match(output, /1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/);

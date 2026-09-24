@@ -155,7 +155,10 @@ const packingGroups = [
     title: "随身数码设备",
     items: [
       ["tech-phone", "手机与手机壳"],
+      ["tech-backup-phone", "备用手机"],
+      ["tech-sim", "SIM 卡与取卡针"],
       ["tech-ipad", "iPad 与保护套"],
+      ["tech-ipad-dock", "iPad 扩展坞"],
       ["tech-switch", "Switch、保护盒及游戏卡 / 离线游戏"],
       ["tech-earbuds", "耳机与充电盒"],
       ["tech-powerbank", "充电宝（随身，不托运、不放头顶行李架）"],
@@ -205,9 +208,10 @@ const packingGroups = [
   {
     title: "装箱与出门前",
     items: [
+      ["pack-backpack", "随身双肩包，外部尺寸不超过 40 × 30 × 20cm"],
+      ["pack-lock", "双肩包防盗锁"],
       ["pack-carry", "相机、iPad、Switch、充电宝、证件和药物全部放随身包"],
-      ["pack-checked", "衣物、洗护、备用鞋和折叠相机包放托运行李"],
-      ["pack-camera-bag", "相机包不作为 Ryanair 第二件随身行李出现"],
+      ["pack-checked", "衣物、洗护和备用鞋放托运行李"],
       ["pack-liquids", "随身液体单瓶不超过 100ml，并放入透明袋"],
       ["pack-weigh", "使用行李秤称重并给秤误差留余量"],
       ["pack-charge", "出发前一晚给手机、相机、iPad、Switch和耳机充满电"],
@@ -217,6 +221,7 @@ const packingGroups = [
   },
 ] as const;
 
+const packingIds = packingGroups.flatMap((group) => group.items.map(([id]) => id));
 const packingTotal = packingGroups.reduce((total, group) => total + group.items.length, 0);
 
 const tabs: Array<{ id: Tab; label: string; icon: string }> = [
@@ -310,7 +315,7 @@ export default function Home() {
   const [selectedDay, setSelectedDay] = useState<string | null>(null);
   const [checkedPacking, setCheckedPacking] = useState<Record<string, boolean>>({});
   const currentDay = days.find((day) => day.id === selectedDay);
-  const packingDone = Object.values(checkedPacking).filter(Boolean).length;
+  const packingDone = packingIds.filter((id) => checkedPacking[id]).length;
 
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
