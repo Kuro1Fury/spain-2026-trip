@@ -1,11 +1,11 @@
 # Spain 2026｜全程总攻略
 
-**旅行日期：2026/9/26–10/9**  
-**主线：上海 → 北京 → Barcelona → Sevilla / Córdoba → Madrid → 北京 → 上海**  
+**旅行日期：2026/9/26–10/9**
+**主线：上海 → 北京 → Barcelona → Sevilla / Córdoba → Madrid → 北京 → 上海**
 **旅行风格：A 级硬预约锁定；B 级正常体力建议去；C 级有余力再加。不为了“清地图”牺牲体验。**
 
-> **这份文件是总控版。**  
-> 最前面放全程交通、酒店、预约、行李与待办；后半部分保留 Barcelona、Sevilla/Córdoba、Madrid 三份详细城市攻略。  
+> **这份文件是总控版。**
+> 最前面放全程交通、酒店、预约、行李与待办；后半部分保留 Barcelona、Sevilla/Córdoba、Madrid 三份详细城市攻略。
 > 所有航班、火车时间均按当地时间理解。
 
 ---
@@ -20,7 +20,7 @@
 - Sevilla → Madrid 火车已经确定，并已升级到可带 **25 寸主行李**的额度。
 - 三座城市住宿均已确定：
   - Barcelona：**NH Barcelona Eixample**
-  - Sevilla：**Select Tetuán**（以此为准，Petit Palace Santa Cruz 不采用）
+  - Sevilla：**Petit Palace Santa Cruz**
   - Madrid：**Hostal Atocha Almudena Martín**
 - Barcelona、Sevilla、Madrid 的核心收费景点大部分已经预订完毕。
 - 9/30 Montserrat 完整套票已经预订，13:00 Escolania、Holy Image 15:30 以后。
@@ -122,13 +122,13 @@
 | 城市 | 日期 | 住宿 | 位置 / 总体作用 |
 |---|---|---|---|
 | **Barcelona** | 9/27–10/2 | **NH Barcelona Eixample** | Eixample；适合高迪住宅、城市中心动线 |
-| **Sevilla** | 10/2–10/6 | **Select Tetuán** | 老城核心；本次以此订单为准 |
+| **Sevilla** | 10/2–10/6 | **Petit Palace Santa Cruz** | Santa Cruz 老城核心；步行串联 Cathedral、Alcázar 与 Centro |
 | **Madrid** | 10/6–10/8 | **Hostal Atocha Almudena Martín** | Centro / Antón Martín 一带；适合 Prado、Sol、老城 |
 
 ### 公开地址备忘
 
 - **NH Barcelona Eixample**：Carrer de València 105–107, Barcelona
-- **Select Tetuán**：Calle Jovellanos 8, Sevilla
+- **Petit Palace Santa Cruz**：Calle Muñoz y Pabón 18, Sevilla
 - **Hostal Atocha Almudena Martín**：Calle de Atocha 43, Madrid
 
 > 出发前仍以酒店订单里的地址、电话、入住说明为最高优先级，并把订单页截图 / PDF 离线保存。
@@ -154,7 +154,9 @@
 |---|---:|---|---|
 | 10/2 | **20:00** | Bienal de Flamenco｜Alfonso Losa《Gesto mínimo》 | ✅ |
 | 10/3 | **10:55** | Sevilla Cathedral + Giralda（含 El Salvador） | ✅ |
+| 10/3 | **晚间时段** | La Turruñuela Vinos y Tapas｜Barra | ✅ 已预订 |
 | 10/4 | **10:00** | Mezquita-Catedral | ✅ 已订 |
+| 10/4 | **13:30** | Bodegas Mezquita Céspedes | ✅ 已预订 |
 | 10/5 | **13:00** | Real Alcázar + Cuarto Real Alto | ✅ |
 
 ### Bienal 座位
@@ -197,8 +199,8 @@
 特别是：
 - BCN Airport ↔ Barcelona 酒店
 - Barcelona 酒店 → BCN T2
-- Sevilla Airport → Select Tetuán
-- Select Tetuán → Santa Justa
+- Sevilla Airport → Petit Palace Santa Cruz
+- Petit Palace Santa Cruz → Santa Justa
 - Madrid Atocha → 酒店
 - Madrid 酒店 → MAD T1
 
@@ -249,7 +251,7 @@
 
 ---
 
-## 10/2｜Sevilla Airport → Select Tetuán
+## 10/2｜Sevilla Airport → Petit Palace Santa Cruz
 
 **14:25 落地。**
 
@@ -257,7 +259,7 @@
 
 建议：
 - 机场取行李
-- Taxi → Select Tetuán
+- Taxi → Petit Palace Santa Cruz
 - 入住 / 放行李
 - 休息
 - 提前吃一点
@@ -267,7 +269,7 @@
 
 ---
 
-## 10/6｜Select Tetuán → Sevilla-Santa Justa
+## 10/6｜Petit Palace Santa Cruz → Sevilla-Santa Justa
 
 **OUIGO 10:37**
 
@@ -394,7 +396,7 @@ Madrid T1 办理 CA898 时：
 ## 酒店
 
 - [ ] 三家酒店订单离线保存
-- [ ] Select Tetuán 订单确认是最终使用订单
+- [ ] Petit Palace Santa Cruz 订单离线保存并核对入住信息
 - [ ] 10/8 Hostal Atocha 确认晚间寄存 / 取行李时间
 
 ## 门票
@@ -421,7 +423,8 @@ Madrid T1 办理 CA898 时：
 - [ ] Madrid 10/6 Debod 日落天气
 - [ ] Royal Palace 是否因官方活动调整开放区
 - [ ] Prado / Reina Sofía 是否有临时关闭展厅
-- [ ] 三城正式餐厅若要吃，复核营业时间 / 是否需预约
+- [ ] 复核 La Turruñuela 与 Bodegas Mezquita Céspedes 的预约确认及当天营业状态
+- [ ] 其余正式餐厅若要吃，再复核营业时间 / 是否需预约
 
 ---
 
@@ -486,6 +489,21 @@ Madrid T1 办理 CA898 时：
 
 **📍活动区域：Gothic Quarter → El Born → Port Vell / Barceloneta**\
 **💡 今日策略：完全不预约。状态好就多走，累了就回酒店。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 08:15–10:30 | BCN T1 落地后 **Taxi → NH Barcelona Eixample** | 入境、取行李、寄存或入住；这是今天唯一必须完成的事 |
+| 10:30–12:30 | 酒店附近早餐 / café，必要时休息 | 不为 brunch 绕路；夜航后先恢复体力 |
+| **12:30 左右** | 酒店出发；Taxi，或地铁到 Catalunya 后步行进入老城 | 建议最晚 13:00 动身，避免把第一天压缩成纯晚间散步 |
+| 13:15–17:30 | **Barcelona Cathedral（巴塞罗那主教座堂）→ Carrer del Bisbe（主教街）→ Plaça Sant Jaume（圣若梅广场）→ Plaça del Rei（国王广场）→ El Born（博恩区）→ Santa Maria del Mar（海洋圣母圣殿）** | B 级主线；午餐在 Gothic / Born 随时插入 |
+| 17:30–20:00 | **El Born（博恩区）→ Port Vell（老港）→ Barceloneta（巴塞罗内塔海滩区）** | 天气和体力正常就去海边；累了可从 Born 直接回酒店 |
+| 20:00 后 | 海边或 Eixample 晚餐 → 酒店 | 不再加收费景点 |
+
+**午餐备选：** Gothic / Born 的 menú del día、tapas；抵达时间不稳定，不锁店。
+**晚餐备选：** LOKAL BAR、MERCADER EIXAMPLE、ABANIC；若留在海边则现场选顺路餐厅。
+**Plan B：** 下雨或明显疲惫时，缩成 **酒店休息 → Gothic Quarter 短线 → café / 室内空间 → 晚餐**，直接取消 Barceloneta 与 Montjuïc。
 
 ## 上午｜抵达 + 安顿
 
@@ -552,6 +570,23 @@ Jaume - Plaça del Rei - El Born - Santa Maria del Mar
 
 **📍活动区域：Passeig de Gràcia → Eixample → Gràcia**\
 **💡 今日策略：两个高迪建筑已经够满，不再加第三个收费景点。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| **08:25** | 从 NH Barcelona Eixample 出发，步行约 20 分钟前往 Passeig de Gràcia（格拉西亚大道） | 最晚 08:40 动身；预留早餐和排队缓冲 |
+| 08:45–09:40 | Faborit Casa Amatller 早餐 | 就在 Casa Batlló 隔壁 |
+| 10:00 到场 / 10:15 入场 | **Casa Batlló（巴特罗之家，A 级）** | 参观约 1.5–2 小时 |
+| 12:15–13:30 | Eixample 午餐 | 吃完后不跨区 |
+| 13:30–15:30 | **Passeig de Gràcia（格拉西亚大道）→ Rambla de Catalunya（加泰罗尼亚兰布拉大道）→ La Pedrera（米拉之家）** | B 级城市漫步；15:30 前结束 café / shopping |
+| 15:40 到场 / 16:00 入场 | **La Pedrera（米拉之家，A 级）** | 参观约 1–1.5 小时 |
+| 17:30 后 | 步行进入 **Gràcia（格拉西亚区）：Plaça del Sol（太阳广场）→ Plaça de la Virreina（维雷纳广场）→ Carrer de Verdi（威尔第街）** | B 级；Casa Vicens（维森斯之家）仅在有余力时顺路看 |
+| 19:30 后 | Gràcia 晚餐 → 地铁 / Taxi 回酒店 | 不再去 Tibidabo、Bunkers 或 Montjuïc |
+
+**午餐备选：** Gràcia Platets i Bistró、MERCADER EIXAMPLE；想快吃选 LOKAL BAR 或 ABANIC。
+**晚餐备选：** La Pubilla、Taverna El Glop；正式晚餐才考虑 Con Gracia；换口味选 KILTRO 或 ÁNDELE。
+**Plan B：** 两个已订建筑照常；取消长距离街区散步，把间隔改成附近 café / shopping，La Pedrera 后直接晚餐回酒店。
 
 ## 上午｜Casa Batlló
 
@@ -639,6 +674,23 @@ Gràcia，**这一天尽量全程走路**。
 **📍活动区域：Park Güell → Gràcia → Turó de la Rovira / Bunkers del Carmel**\
 **💡 今日策略：上午高迪，中午和下午留给 Gràcia；天气与体力正常时，傍晚去 Bunkers 看城市。**
 
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 08:15–09:00 | 酒店附近简单早餐 | 不排 brunch |
+| **09:15** | 从 NH Barcelona Eixample 出发；**Taxi 直达 Park Güell（古埃尔公园）** 最稳妥 | 最晚 09:30 动身，目标 10:00 到入口附近 |
+| 10:30–12:15 | **Park Güell（古埃尔公园，A 级）** | Monumental Zone（纪念区）、长椅、高迪元素与城市景观 |
+| 12:15–13:00 | 顺坡下行或短程 Taxi / 公交到 Gràcia（格拉西亚区） | 不在公园门口被游客餐绑住 |
+| 13:00–14:30 | Gràcia（格拉西亚区）午餐 | La Pubilla / Taverna El Glop 优先 |
+| 14:30–17:15 | **Plaça de la Virreina（维雷纳广场）→ Carrer de Verdi（威尔第街）→ Plaça del Sol（太阳广场）** | B 级慢游，中间随时 café |
+| **17:15 左右做决定** | 天气与体力好：Taxi / 公交去 Turó de la Rovira / Bunkers del Carmel（罗维拉山 / 卡梅尔地堡）；否则留在 Gràcia | 不要拖到遗址区临关前才出发 |
+| 19:00 后 | Gràcia 或回 Eixample 晚餐 | Bunkers 取消时也不补跨区项目 |
+
+**午餐备选：** La Pubilla、Taverna El Glop；想快吃可选 Restaurant La Salut。
+**晚餐备选：** La Pubilla、Taverna El Glop、KILTRO；Con Gracia 仅在确认可接待单人且完成预约时考虑。
+**Plan B：** Park Güell 按票面去但缩短停留；取消 Bunkers，下午改成 Gràcia café、shopping 或室内项目。
+
 ## 上午｜Park Güell
 
 ### 🍳 早餐
@@ -716,6 +768,25 @@ museum / shopping。
 **📍活动区域：Barcelona → Montserrat → Barcelona**\
 **💡 今日策略：这是完整一日游。山景比"打卡完所有室内项目"更重要。**
 
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 07:00–07:35 | 酒店附近快速早餐，带水和简单补给 | 不安排 brunch |
+| **07:40 左右** | 从 NH Barcelona Eixample 出发，Taxi 前往 **Plaça d'Espanya（西班牙广场）的 FGC 站** | 最晚约 08:00 动身；以票面 / 当日 FGC 时刻为准 |
+| 08:00–10:30 | **FGC → Monistrol de Montserrat（蒙塞拉特山脚站）→ Cremallera（齿轨火车）上山** | 套票交通；上车前确认线路和换乘 |
+| 10:30–12:40 | Basilica（蒙塞拉特圣殿）、修道院周边与山景 | B 级主线；天气好先看户外 |
+| **12:40** | 回到 Escolania（少年唱诗班）对应集合 / 入场区域 | 不要在山径上卡 13:00 |
+| 13:00 | **Escolania（蒙塞拉特少年唱诗班，A 级）** | 固定时间 |
+| 13:30–15:15 | 山上午餐 + 休息 | 不下山找餐厅 |
+| 15:30 后 | **Holy Image / Virgin's Throne（黑面圣母像，A 级）** → 山景 / 轻徒步 | Sant Joan Funicular（圣胡安缆车）仅在时间、天气都允许时加 |
+| 17:00–18:00 左右 | 开始按当日班次下山返程 | 不赌末班；具体以票面和现场时刻表为准 |
+| 回城后 | 酒店附近晚餐 | 不再安排夜间票 |
+
+**午餐备选：** Montserrat 山上餐饮；若套票含餐则直接使用。
+**晚餐备选：** LOKAL BAR、ABANIC 或酒店附近 tapas / Catalan。
+**Plan B：** 多云照常；大雨或低能见度时取消 Funicular 与徒步，把时间给 Basilica、Museum、Audiovisual Space 和 café。
+
 ## 🎟️ 当前状态：✅ 已购买完整套票
 
 套票包含：
@@ -790,6 +861,23 @@ Montserrat 最大变量就是天气。
 
 **📍活动区域：Sagrada Família → Avinguda de Gaudí → Sant Pau → Tibidabo**\
 **💡 今日策略：上午锁定圣家堂；Sant Pau 顺路正常参观；下午只保留 Tibidabo 这一个主加码。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 07:45–08:20 | 酒店附近简单早餐 | 带护照、门票、耳机 |
+| **08:30** | 从 NH Barcelona Eixample 出发；地铁 L5 可直达 Sagrada Família（圣家堂），想省力可 Taxi | 最晚 08:45 动身，目标 09:00–09:10 到场 |
+| 09:30 / 09:45 | **Sagrada Família + Towers（圣家堂与登塔，A 级）** | 整体预留约 2 小时或更多 |
+| 11:45–13:00 | 沿 **Avinguda de Gaudí（高迪大道）** 步行并午餐 | 一条直线走向 Sant Pau |
+| 13:00–15:00 | **Hospital de Sant Pau（圣保罗现代主义建筑群，B 级）** | 正常体力建议入内 |
+| **15:00 做决定** | 天气好且状态正常：开始前往 Tibidabo；15:30 后或疲惫则取消 | 去之前复核 Cuca de Llum 与山顶开放信息 |
+| 16:00–18:30 左右 | Tibidabo（蒂比达博山）的 Panoramic Area（全景区）、山顶教堂与城市景观 | B 级加码；不追游乐园项目数量 |
+| 19:30 后 | Gràcia / Eixample 晚餐 → 酒店 | Barcelona 最后一晚不再跨区补漏 |
+
+**午餐备选：** Madre Taberna Moderna 最顺路；Bistro Sagrada、Zed、Tuscania、Mira、Micu Maku 为备选。
+**晚餐备选：** Taverna El Glop、La Pubilla、MERCADER EIXAMPLE、ABANIC；Con Gracia 目前不作为已锁定安排。
+**Plan B：** Sagrada Família 与 Sant Pau 照常；天气差直接取消 Tibidabo，回 Eixample 休息并早点吃晚饭。
 
 ## 上午｜Sagrada Família
 
@@ -868,6 +956,19 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 
 **📍活动区域：住宿 → BCN Airport → Sevilla**\
 **💡 今日策略：只做一件事------顺利去机场。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 08:00–09:15 | 早餐、最后收拾、退房 | 早餐只选酒店附近 |
+| **09:30–09:45** | **Taxi：NH Barcelona Eixample → BCN T2** | 最晚 09:45 动身；目标 10:15–10:30 到 T2 |
+| 10:15–12:10 | 托运行李、安检、前往登机口 | 复核 FR1165 行李额度 |
+| 12:40–14:25 | **FR1165 Barcelona → Sevilla（A 级）** | 按机票航站楼和登机口执行 |
+| 14:25 后 | 取行李 → Taxi 前往 Petit Palace Santa Cruz | Sevilla 下午路线见下方同日章节 |
+
+**午餐：** 机场内简单解决或自备 snack，不为餐厅压缩值机时间。
+**Plan B：** 航班延误时，直接压缩 Sevilla 下午散步；20:00 Bienal 和 19:30 到场目标不变。
 
 ## 上午｜早餐 + 退房
 
@@ -1081,31 +1182,31 @@ Montserrat → 10/1 圣家堂 + Sant Pau + Tibidabo（状态好才去）→ 10/2
   日期             项目                                 时间 状态
   ---------------- ------------------- --------------------- ----------------
   10/2             Bienal de                       **20:00** ✅ 已订
-                   Flamenco｜Alfonso                         
-                   Losa《Gesto                               
-                   mínimo》                                  
+                   Flamenco｜Alfonso
+                   Losa《Gesto
+                   mínimo》
 
   10/3             Sevilla Cathedral +             **10:55** ✅ 已订
-                   Giralda（含 El                            
-                   Salvador）                                
+                   Giralda（含 El
+                   Salvador）
 
   10/4             Sevilla-Santa Justa      **08:37--09:19** ✅ 已订
-                   → Córdoba｜AVE                            
-                   03943                                     
+                   → Córdoba｜AVE
+                   03943
 
   10/4             Mezquita-Catedral              **10:00** ✅ 已订
                    de Córdoba
 
   10/4             Córdoba →                **19:27--20:28** ✅ 已订
-                   Sevilla-Santa                             
-                   Justa｜Avant 08784                        
+                   Sevilla-Santa
+                   Justa｜Avant 08784
 
   10/5             Real Alcázar +                  **13:00** ✅ 已订
-                   Cuarto Real Alto                          
+                   Cuarto Real Alto
 
   10/6             Sevilla →                       **10:37** ✅ 已订
-                   Madrid｜OUIGO_ESP                         
-                   06507                                     
+                   Madrid｜OUIGO_ESP
+                   06507
   ---------------------------------------------------------------------------
 
 ## ⚠️ 最重要的提醒
@@ -1140,11 +1241,25 @@ Montserrat → 10/1 圣家堂 + Sant Pau + Tibidabo（状态好才去）→ 10/2
 **💡 今日策略：不要一落地就打卡。先感受 Sevilla，晚上用 Bienal 正式进入
 Andalucía。**
 
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 14:25–15:45 | Sevilla Airport 取行李 → **Taxi 到 Petit Palace Santa Cruz** | 入住、放行李、休息；不临时买景点票 |
+| 16:15–17:30 | 酒店步行出发：**Plaza del Salvador（萨尔瓦多广场）→ Calle Sierpes（蛇街）→ Ayuntamiento（市政厅）→ Plaza Nueva（新广场）→ Cathedral / Santa Cruz（主教座堂 / 圣十字区）** | B 级短环线，最后自然回到酒店附近 |
+| 17:30–18:30 | Santa Cruz（圣十字区）提前吃一点 | 只吃七分饱，不安排两小时正式晚餐 |
+| **19:05 左右** | 从酒店 / Santa Cruz 步行前往 Teatro Lope de Vega（洛佩·德·维加剧院） | 最晚 19:10 动身；目标 19:30 到剧院 |
+| 20:00 | **Bienal de Flamenco（A 级）** | Palco Central P7｜Fila 2｜Butaca 4 |
+| 演出后 | 剧院附近短散步 / tapas → 步行或 Taxi 回酒店 | 不再安排第二个项目 |
+
+**演出前餐饮备选：** El Librero Tapas Y Quesos、Bodega Santa Cruz Las Columnas、El Pasaje；想换口味选 El rincón de Beirut / Arabesca。
+**Plan B：** 航班延误或下雨时，取消全部下午散步，执行 **机场 → 酒店 → 简单吃饭 → 19:30 剧院**。
+
 ## 下午｜抵达 + 安顿
 
 -   从 Barcelona 抵达 Sevilla 后先去住宿处寄存行李 / 入住。
 -   下午不安排任何门票。
--   状态好：从 Select Tetuán 周边串 **Plaza Nueva → Ayuntamiento → Calle Sierpes → Plaza del Salvador**。
+-   状态好：从 Petit Palace Santa Cruz 出发，串 **Plaza del Salvador → Calle Sierpes → Ayuntamiento → Plaza Nueva → Cathedral / Santa Cruz**，自然回到酒店附近。
 -   状态一般：直接 café / 酒店休息，为晚上的演出留体力。
 
 ### C 级｜Las Setas
@@ -1188,6 +1303,23 @@ Andalucía。**
 
 **📍活动区域：Cathedral / Giralda → Santa Cruz → Jardines de Murillo / Archivo de Indias → Torre del Oro / 河岸 → Triana**\
 **💡 今日策略：上午完成硬预约；下午沿一条连续路线向西走，不跨区折返。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 08:45–09:40 | 酒店附近早餐 | 不需要很早起，也不排远距离 brunch |
+| **09:50 左右** | 从 Petit Palace Santa Cruz 步行前往 Cathedral（塞维利亚主教座堂） | 最晚 10:05 动身；目标 10:25–10:35 到场 |
+| 10:55–12:30 | **Sevilla Cathedral + Giralda（塞维利亚主教座堂 + 吉拉尔达塔，A 级）** | 门票含 Iglesia de El Salvador（萨尔瓦多教堂） |
+| 12:30–14:00 | Santa Cruz（圣十字区）午餐 | 轻松 tapas，不跨区 |
+| 14:00–17:30 | **Santa Cruz（圣十字区）→ Plaza de Doña Elvira（多尼亚·埃尔维拉广场）→ Callejón del Agua（水巷）→ Jardines de Murillo（穆里略花园）→ Archivo de Indias（西印度群岛综合档案馆）→ Torre del Oro（黄金塔）** | B 级连续步行主线；El Salvador 只在午后前段顺路加入 |
+| 17:30–晚餐前 | 河岸 → 过桥进入 **Triana（特里亚纳区）：Mercado de Triana（特里亚纳市场）→ 陶瓷街区 → Calle Betis（贝蒂斯街）** | B 级；保留坐下休息时间 |
+| **预约前 30 分钟** | 从 Triana 当前落点步行前往 La Turruñuela | 预约分钟尚未写死；以确认信息为准，目标提前 10–15 分钟到 |
+| 晚间 | **La Turruñuela（A 级已订，Barra）** → 河岸夜景 → Taxi / 步行回酒店 | Las Setas 仅在回程仍有体力时考虑 |
+
+**午餐备选：** El Librero Tapas Y Quesos、El Pasaje、Bodega Santa Cruz Las Columnas、El Librero Abacería。
+**晚餐：** La Turruñuela 已锁定；其他 Triana 餐厅仅作预约异常时的备选。
+**Plan B：** Cathedral 照常；雨大时缩短 Santa Cruz 和河岸，改成 **Cathedral → El Salvador / café → Taxi 到 La Turruñuela**。
 
 ## 上午｜慢早餐 + Cathedral
 
@@ -1260,6 +1392,26 @@ Cathedral 照常；下午减少长距离漫游，改 El Salvador + café + 提�
 **📍活动区域：Sevilla → Córdoba Centro Histórico → Sevilla**\
 **💡 今日策略：Mezquita 是绝对核心；其余项目围着它走。不要把 Córdoba
 做成第二个 Barcelona。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 06:50–07:25 | 简单早餐、只带日包 | 前一晚准备好火车票和 Mezquita 门票 |
+| **07:30–07:40** | **Taxi：Petit Palace Santa Cruz → Sevilla-Santa Justa** | 最晚 07:45 动身；目标 08:00 左右到站 |
+| 08:37–09:19 | **AVE 03943（A 级）** | Sevilla → Córdoba |
+| 09:19–09:45 | Córdoba（科尔多瓦）站下车后 Taxi 到 Mezquita / Puerta del Puente（大清真寺 / 桥门）一带 | 不用拖时间走完全程，目标 09:40 左右到 |
+| 10:00–11:40 | **Mezquita-Catedral（科尔多瓦大清真寺暨主教座堂，A 级）** | 红白拱柱林、Mihrab（米哈拉布）、宗教空间叠加 |
+| 11:40–13:15 | **Calleja de las Flores（百花巷）→ Calle Judíos（犹太人街）→ Judería（犹太区）小巷** | B 级；13:15 开始向餐厅收口 |
+| 13:30 | **Bodegas Mezquita Céspedes（A 级已订）** | 已锁定午餐 |
+| 15:00–17:30 | **Alcázar de los Reyes Cristianos（基督教君主城堡，开放且顺利衔接时）→ 河边 → Roman Bridge（古罗马桥）** | Alcázar 是 B 级；闭馆或衔接不顺就直接跳过 |
+| 17:30–18:15 | C 级二选一：Plaza de la Corredera（科雷德拉广场），或 Templo Romano（古罗马神庙遗址）/ Centro（市中心）小街 | 只选一个，随时准备撤 |
+| **18:20 左右** | 从老城开始前往 Córdoba 站；Taxi 最稳妥 | 最晚约 18:35 离开老城，给 19:27 火车留缓冲 |
+| 19:27–20:28 | **Avant 08784（A 级）** → Sevilla | 到站后 Taxi 回酒店，就近补晚饭 |
+
+**午餐：** Bodegas Mezquita Céspedes 已锁定；Casa Pepe、La Esquinita、El Abanico、Damasco 仅作异常备选。
+**晚餐：** 回 Sevilla 后在 Petit Palace Santa Cruz 附近简单吃，不再跨区。
+**Plan B：** Mezquita 和 13:30 午餐不动；缩短 Judería，取消 Alcázar 与 C 级加项，午后用 café / 室内停留替代河边长走。
 
 ## 上午｜Sevilla → Córdoba
 
@@ -1349,6 +1501,23 @@ Cruz / Salvador / Centro → Las Setas**\
 **💡 今日策略：上午完全自由，下午王宫是唯一硬预约。最后一个完整 Sevilla
 日不要赶。**
 
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 08:15–09:00 | 早餐 | 今天上午不需要抢早场 |
+| **09:05–09:15** | 从 Petit Palace Santa Cruz 出发，步行经 Jardines de Murillo（穆里略花园）/ Prado de San Sebastián（圣塞瓦斯蒂安草地）前往 Plaza de España（西班牙广场） | 最晚 09:20 动身；也可短程 Taxi |
+| 09:40–10:40 | **Plaza de España（西班牙广场，B 级）** | 建筑、桥、运河和各省瓷砖 |
+| 10:40–11:35 | **Parque de María Luisa（玛丽亚·路易莎公园，B 级）** | 向 Alcázar 方向散步，不走回头路 |
+| **11:40–12:20** | 提前轻午餐 | 12:20 前结束，随后步行 / Taxi 到 Alcázar |
+| 12:30 到场 / 13:00 入场 | **Real Alcázar + Cuarto Real Alto（塞维利亚王宫 + 王室上层宫殿，A 级）** | 宫殿与花园慢慢看 |
+| 16:00 左右后 | **Alcázar（王宫）→ Santa Cruz（圣十字区）→ Plaza del Salvador（萨尔瓦多广场）→ Centro（市中心）→ Las Setas（都市阳伞 / 蘑菇伞）** | B 级向北收尾；按实际出场时间伸缩 |
+| 19:00 后 | Las Setas / Centro 晚餐 → 步行回酒店 | Sevilla 最后一晚，不再去 Triana |
+
+**午餐备选：** Atávico、El rincón de Beirut、Arabesca；更稳妥的是沿路简单 tapas / sandwich。
+**晚餐备选：** El Pasaje、El Librero，或 Las Setas / Centro 当天顺眼的 Andalusian restaurant。
+**Plan B：** 13:00 Alcázar 不动；上午大雨就留在酒店 / café，取消 Plaza de España 和公园，午饭后直接去 Alcázar，傍晚视雨势决定是否去 Las Setas。
+
 ## 上午｜Plaza de España
 
 建议 **09:30--10:00 左右**到即可。
@@ -1415,6 +1584,19 @@ Plaza de España → María Luisa Park → Alcázar
 
 **📍活动区域：住宿 → Sevilla-Santa Justa → Madrid**\
 **💡 今日策略：只做一件事------舒服地坐上 10:37 的火车。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 07:45–08:45 | 早餐、收拾、退房 | 不排 brunch，不再去景点 |
+| **09:20–09:30** | **Taxi：Petit Palace Santa Cruz → Sevilla-Santa Justa** | 最晚 09:30 动身；目标约 09:50 到站 |
+| 09:50–10:25 | 找站台、安放行李、候车 | 25 寸行李按已升级额度执行 |
+| 10:37–13:16 | **OUIGO_ESP 06507（A 级）** | Sevilla → Madrid Atocha |
+| 13:16 后 | 短程 Taxi 到 Hostal Atocha Almudena Martín | Madrid 下午路线见下方同日章节 |
+
+**午餐：** 可在车上简单吃，或放好行李后在 Madrid Centro 补一顿。
+**Plan B：** 列车延误时直接压缩 Madrid 老城散步；当天没有下午硬预约，不需要赶行程。
 
 ## 上午｜早餐 + 退房
 
@@ -1605,7 +1787,8 @@ Central P7｜Fila 2｜Butaca 4** - ✅ 已付款
 -   [ ] 10/4 Mezquita 宗教活动 / 开放时间
 -   [ ] 10/4 Córdoba Alcázar 周日开放时间
 -   [ ] 10/5 Sevilla 天气
--   [ ] 餐厅当天营业时间；只有正式晚餐才考虑预约
+-   [ ] La Turruñuela 与 Bodegas Mezquita Céspedes 预约确认离线保存
+-   [ ] 其余餐厅当天营业时间；未锁定餐厅以顺路 walk-in 为主
 
 ------------------------------------------------------------------------
 
@@ -1682,6 +1865,22 @@ Sevilla 行程。**
 **📍活动区域：Madrid Centro → Sol / Plaza Mayor → Austrias → Plaza de Oriente / Plaza de España → Debod → Gran Vía**\
 **💡 今日策略：13:16 才到，不设预约。下午靠步行认识
 Madrid，火车晚点也不会毁掉任何东西。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 13:16–14:15 | Madrid Atocha 下车 → 短程 Taxi 到 Hostal Atocha Almudena Martín | 寄存 / 放行李、简单整理 |
+| 14:15–14:45 | 酒店或 Antón Martín 附近快速午餐 | 不为了名店延误下午主线 |
+| **14:45 左右** | 从酒店步行出发 | 若列车晚点，最晚 15:30 开始也可，直接缩短中间停留 |
+| 14:45–17:45 | **Puerta del Sol（太阳门广场）→ Plaza Mayor（马约尔广场）→ Mercado de San Miguel（圣米格尔市场）→ Madrid de los Austrias（奥地利王朝老城区）→ Plaza de Oriente（东方广场）→ Plaza de España（西班牙广场）** | B 级连续步行主线；Mercado 人多就五分钟撤 |
+| **17:45–18:15 左右** | 从 Plaza de España（西班牙广场）继续步行到 Temple of Debod（德波神庙） | 根据当天日落时间调整，至少留出提前找位置的时间 |
+| 日落后 | **Debod（德波神庙）→ Plaza de España（西班牙广场）→ Gran Vía（格兰大道）** | 不折返 La Latina（拉丁区） |
+| 20:00 后 | Gran Vía / Centro tapas hopping → 步行或 Taxi 回酒店 | rooftop 只在还有精神时选一个 |
+
+**午餐备选：** Antón Martín / Atocha 一带快速解决；也可在 Plaza Mayor 路线上少量补食。
+**晚餐策略：** Gran Vía / Centro 找一家吃一点，再走到下一家；优先尝 bocadillo de calamares、bravas、croquetas、huevos rotos。
+**Plan B：** 下雨或列车晚点时，缩成 **酒店 → Sol → Plaza Mayor → Mercado de San Miguel → Gran Vía**，直接取消 Debod 与 rooftop。
 
 ## 中午｜Sevilla → Madrid
 
@@ -1784,6 +1983,22 @@ rotos - Boquerones - Jamón / queso - Vermut
 **📍活动区域：Royal Palace / Almudena → Centro → Gran Vía → Malasaña /
 Chueca**\
 **💡 今日策略：上午认真看皇宫；下午故意不安排第二张门票。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 08:00–08:45 | 酒店附近早餐 | 耳机、手机和语音导览准备好 |
+| **09:00** | 从 Hostal Atocha Almudena Martín 出发；Taxi 最稳妥，或地铁 L1 到 Sol（太阳门）后步行至皇宫 | 最晚 09:10 动身；目标 09:30–09:40 到场 |
+| 10:00–12:00 | **Royal Palace of Madrid（马德里王宫，A 级）** | Self-Guided + 官方手机 Audioguide |
+| 12:00–12:45 | **Plaza de Oriente（东方广场）→ Catedral de la Almudena（阿穆德纳圣母主教座堂）** | B 级顺路段 |
+| 13:00–14:30 | Centro / Austrias（市中心 / 奥地利王朝老城区）午餐 | 不赶下一张票 |
+| 14:30–18:30 | **Plaza de España（西班牙广场）→ Gran Vía（格兰大道）→ Malasaña（马拉萨尼亚区）→ Chueca（丘埃卡区）** | Gran Vía、Malasaña 是 B 级；Chueca 为 C 级 |
+| 18:30 后 | 按最终落点 café / 晚餐 / rooftop | 最晚 21:30 左右开始回酒店，为次日双馆留体力 |
+
+**午餐备选：** Ópera、Plaza Mayor、La Latina 边缘或 Centro 顺路餐厅。
+**晚餐备选：** Malasaña、Chueca、Gran Vía / Centro 就地选；rooftop 只选 Gran Vía 或 Círculo de Bellas Artes 其中一个。
+**Plan B：** 皇宫照常；下午改成 **Gran Vía 室内 shopping → café → 提早晚餐**，不因下雨临时再买博物馆票。
 
 ## 上午｜Royal Palace
 
@@ -1896,6 +2111,26 @@ Malasaña 正常体力建议去；Chueca 有余力再继续，不要求两个街
 机场**\
 **💡 今日策略：上午把最好的精神状态给 Prado；Retiro 是缓冲区；Reina
 Sofía 精选看。晚上不再追景点。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 07:45–08:50 | 早餐、退房；大件行李寄存在 Hostal Atocha Almudena Martín | 随身只带两馆门票、证件、耳机和充电宝 |
+| **09:00** | 从酒店出发；步行约 20 分钟或短程 Taxi 到 Museo del Prado（普拉多博物馆） | 最晚 09:10 动身；目标 09:30–09:40 到场 |
+| 10:00–13:00 / 13:30 | **Museo del Prado（普拉多博物馆，A 级）** | 优先 Velázquez（委拉斯开兹）、Goya（戈雅）、Bosch（博斯）、El Greco（格列柯）等核心 |
+| 13:00–14:15 | Prado / Retiro（普拉多 / 丽池公园）一带午餐 | 先吃饭，再进公园 |
+| 14:15–15:20 | **Parque del Retiro（丽池公园，B 级缓冲）** | Prado 出馆晚就缩到 40–60 分钟 |
+| **15:20–15:30** | 从 Retiro（丽池公园）开始前往 Reina Sofía（索菲亚王后艺术中心）；时间紧就 Taxi | 最晚 15:30 动身，目标 15:50 左右到 |
+| 16:00–18:00 / 18:30 | **Museo Reina Sofía（索菲亚王后国家艺术中心，A 级）** | 《Guernica / 格尔尼卡》优先，再看 Picasso（毕加索）、Dalí（达利）、Miró（米罗） |
+| 18:30–20:15 | Atocha / Antón Martín / Paseo del Prado 一带最后晚餐 | 不远离酒店和取行李路线 |
+| **20:30** | 回酒店取行李 | 不再加景点 |
+| **20:45–21:00** | **Taxi：酒店 → MAD T1** | 最晚 21:00 动身；目标约 21:30 到机场 |
+| 10/9 00:35 | **CA898（A 级）** | 办理托运时确认行李是否直挂上海虹桥 |
+
+**午餐备选：** Prado / Retiro 周边能坐下、排队短的餐厅；路线优先于名气。
+**晚餐策略：** Reina Sofía 出来后在 Atocha / Antón Martín 一带就近吃，避免跨区；传统 Madrid 菜或轻松 tapas 都可以。
+**Plan B：** 两馆不动；下雨直接取消 Retiro，Prado 后延长午餐 / café，再提前前往 Reina Sofía。若 Prado 看得更久，优先压缩 Retiro，不压缩机场缓冲。
 
 今天只允许顺路小加 **Puerta de Alcalá / Cibeles / Paseo del Prado**；继续不加 Thyssen、Royal Collections Gallery、Bernabéu 或任何新大馆。
 

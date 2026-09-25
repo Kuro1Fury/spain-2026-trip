@@ -78,7 +78,14 @@ test("daily sections stop at the next day", async () => {
 
   const cathedralDay = extractSection(markdown, "# 10/3｜Cathedral", "# 10/4｜Córdoba 一日游");
   assert.match(cathedralDay, /Sevilla Cathedral \+ Giralda/);
+  assert.match(cathedralDay, /今日推荐动线/);
+  assert.match(cathedralDay, /Petit Palace Santa Cruz/);
+  assert.match(cathedralDay, /La Turruñuela[^]*已锁定/);
   assert.doesNotMatch(cathedralDay, /AVE 03943/);
+
+  const cordobaDay = extractSection(markdown, "# 10/4｜Córdoba 一日游", "# 10/5｜Plaza de España");
+  assert.match(cordobaDay, /10:00[^]*Mezquita[^]*13:30[^]*Bodegas Mezquita Céspedes/);
+  assert.match(cordobaDay, /最晚约 18:35 离开老城/);
 
   const royalMadrid = extractSection(markdown, "# 10/7｜Royal Madrid", "# 10/8｜Prado");
   assert.match(royalMadrid, /Royal Palace of Madrid/);
@@ -88,6 +95,8 @@ test("daily sections stop at the next day", async () => {
   assert.match(madridArrival, /Temple of Debod/);
   assert.match(madridArrival, /Gran Vía/);
   assert.doesNotMatch(madridArrival, /Royal Palace of Madrid/);
+
+  assert.doesNotMatch(markdown, /Select Tetuán|Select Tetuan/);
 });
 
 test("mobile controls use large touch targets and bottom navigation", async () => {

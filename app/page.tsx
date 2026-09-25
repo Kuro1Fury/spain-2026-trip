@@ -31,6 +31,20 @@ const days: Array<{
 
 **今晚的唯一任务：顺利完成国际联程的第一段。**
 
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 18:30 前 | 完成最后收拾、吃一顿正常晚饭 | 护照、登机牌、充电宝和重要文件放随身包 |
+| **19:00 左右** | 从家 / 当前所在地出发前往上海虹桥 T2 | 按实际出发地反推；目标 20:00 左右到航站楼 |
+| 20:00–21:50 | 值机、托运、安检、前往登机口 | 柜台确认两段登机牌及行李是否直挂 Barcelona |
+| 22:30 | **CA1566 上海虹桥 T2 → 北京首都 T3（A 级）** | 不在机场临时购物或安排其他任务 |
+| 9/27 00:55–02:50 | 北京首都 T3 联程转机 | 直接跟随“国际转机 / Transfer”标识 |
+| 02:50 | **CA845 北京 → Barcelona（A 级）** | 上机后尽量休息 |
+
+**餐饮：** 出发前吃正餐，过安检后只补水和简单 snack。
+**Plan B：** 前往虹桥路况异常时立即改 Taxi / 网约车；航班或转机异常时只听航司现场指引，不自行离开联程区域。
+
 ## ✈️ 22:30｜上海虹桥 T2 → 北京首都 T3
 
 **CA1566｜22:30 出发 → 00:55（9/27）到达**
@@ -45,35 +59,49 @@ const days: Array<{
 
 中转时间 **1 小时 55 分钟**。抵达后直接按“国际转机 / Transfer”标识行动，不在航站楼内停留或购物。`,
   },
-  { id: "0927", date: "09.27", city: "北京 → 巴塞罗那", title: "抵达地中海", detail: "落地安顿 · 哥特区 · Born · 海边", tone: "coral", markdown: section("# 9/27｜抵达日：老城 + 海边", "# 9/28｜高迪住宅日") },
-  { id: "0928", date: "09.28", city: "巴塞罗那", title: "现代主义建筑日", detail: "Casa Batlló · La Pedrera · Gràcia", tone: "coral", markdown: section("# 9/28｜高迪住宅日", "# 9/29｜Park Güell") },
-  { id: "0929", date: "09.29", city: "巴塞罗那", title: "高迪的城市花园", detail: "Park Güell · Gràcia · Bunkers", tone: "green", markdown: section("# 9/29｜Park Güell", "# 9/30｜Montserrat") },
-  { id: "0930", date: "09.30", city: "蒙塞拉特", title: "山间一日", detail: "修道院 · 圣像 · 山景 · 轻徒步", tone: "sand", markdown: section("# 9/30｜Montserrat 一日游", "# 10/1｜Sagrada Família") },
-  { id: "1001", date: "10.01", city: "巴塞罗那", title: "高迪巅峰", detail: "Sagrada Família · Sant Pau · Tibidabo", tone: "blue", markdown: section("# 10/1｜Sagrada Família", "# 10/2｜Barcelona → Sevilla") },
+  { id: "0927", date: "09.27", city: "北京 → 巴塞罗那", title: "抵达地中海", detail: "Gothic 哥特区 · El Born 博恩区 · 海边", tone: "coral", markdown: section("# 9/27｜抵达日：老城 + 海边", "# 9/28｜高迪住宅日") },
+  { id: "0928", date: "09.28", city: "巴塞罗那", title: "现代主义建筑日", detail: "Casa Batlló 巴特罗之家 · La Pedrera 米拉之家 · Gràcia 格拉西亚", tone: "coral", markdown: section("# 9/28｜高迪住宅日", "# 9/29｜Park Güell") },
+  { id: "0929", date: "09.29", city: "巴塞罗那", title: "高迪的城市花园", detail: "Park Güell 古埃尔公园 · Gràcia 格拉西亚 · Bunkers 地堡", tone: "green", markdown: section("# 9/29｜Park Güell", "# 9/30｜Montserrat") },
+  { id: "0930", date: "09.30", city: "蒙塞拉特", title: "山间一日", detail: "Montserrat 蒙塞拉特 · 修道院 · 黑面圣母像 · 山景", tone: "sand", markdown: section("# 9/30｜Montserrat 一日游", "# 10/1｜Sagrada Família") },
+  { id: "1001", date: "10.01", city: "巴塞罗那", title: "高迪巅峰", detail: "Sagrada Família 圣家堂 · Sant Pau 圣保罗建筑群 · Tibidabo 蒂比达博山", tone: "blue", markdown: section("# 10/1｜Sagrada Família", "# 10/2｜Barcelona → Sevilla") },
   {
-    id: "1002", date: "10.02", city: "巴塞罗那 → 塞维利亚", title: "南下安达卢西亚", detail: "FR1165 · 入住 · Bienal Flamenco", tone: "coral",
+    id: "1002", date: "10.02", city: "巴塞罗那 → 塞维利亚", title: "南下安达卢西亚", detail: "FR1165 · 圣十字区入住 · Bienal 弗拉门戈双年展", tone: "coral",
     markdown: [
       section("# 10/2｜Barcelona → Sevilla", "# 🍴 餐厅池｜不用每天重新搜索"),
       section("# 10/2｜抵达 Sevilla + Bienal Flamenco", "# 10/3｜Cathedral"),
     ].join("\n\n---\n\n"),
   },
-  { id: "1003", date: "10.03", city: "塞维利亚", title: "大教堂与河岸", detail: "Cathedral · Santa Cruz · Triana", tone: "gold", markdown: section("# 10/3｜Cathedral", "# 10/4｜Córdoba") },
-  { id: "1004", date: "10.04", city: "科尔多瓦", title: "白色古城一日", detail: "Mezquita · Judería · Roman Bridge", tone: "sand", markdown: section("# 10/4｜Córdoba 一日游", "# 10/5｜Plaza de España") },
-  { id: "1005", date: "10.05", city: "塞维利亚", title: "广场、公园与王宫", detail: "Plaza de España · Real Alcázar · Las Setas", tone: "green", markdown: section("# 10/5｜Plaza de España", "# 10/6｜Sevilla → Madrid") },
+  { id: "1003", date: "10.03", city: "塞维利亚", title: "大教堂与河岸", detail: "Cathedral 主教座堂 · Santa Cruz 圣十字区 · Triana 特里亚纳", tone: "gold", markdown: section("# 10/3｜Cathedral", "# 10/4｜Córdoba") },
+  { id: "1004", date: "10.04", city: "科尔多瓦", title: "白色古城一日", detail: "Mezquita 大清真寺 · Judería 犹太区 · Roman Bridge 古罗马桥", tone: "sand", markdown: section("# 10/4｜Córdoba 一日游", "# 10/5｜Plaza de España") },
+  { id: "1005", date: "10.05", city: "塞维利亚", title: "广场、公园与王宫", detail: "Plaza de España 西班牙广场 · Real Alcázar 王宫 · Las Setas 都市阳伞", tone: "green", markdown: section("# 10/5｜Plaza de España", "# 10/6｜Sevilla → Madrid") },
   {
-    id: "1006", date: "10.06", city: "塞维利亚 → 马德里", title: "抵达首都", detail: "OUIGO · 老 Madrid · Debod · Gran Vía", tone: "blue",
+    id: "1006", date: "10.06", city: "塞维利亚 → 马德里", title: "抵达首都", detail: "OUIGO · 马德里老城 · Debod 德波神庙 · Gran Vía 格兰大道", tone: "blue",
     markdown: [
       section("# 10/6｜Sevilla → Madrid", "# 🍴 餐厅池｜不用每天重新搜索"),
       section("# 10/6｜抵达 Madrid", "# 10/7｜Royal Madrid"),
     ].join("\n\n---\n\n"),
   },
-  { id: "1007", date: "10.07", city: "马德里", title: "Royal Madrid", detail: "皇宫 · Almudena · Gran Vía · Malasaña", tone: "coral", markdown: section("# 10/7｜Royal Madrid", "# 10/8｜Prado") },
-  { id: "1008", date: "10.08", city: "马德里", title: "艺术与旅行终章", detail: "Prado · Retiro · Reina Sofía · 最后晚餐", tone: "gold", markdown: section("# 10/8｜Prado", "# 🍴 Madrid 吃什么") },
+  { id: "1007", date: "10.07", city: "马德里", title: "Royal Madrid", detail: "Royal Palace 王宫 · Almudena 阿穆德纳主教座堂 · Gran Vía 格兰大道 · Malasaña 马拉萨尼亚", tone: "coral", markdown: section("# 10/7｜Royal Madrid", "# 10/8｜Prado") },
+  { id: "1008", date: "10.08", city: "马德里", title: "艺术与旅行终章", detail: "Prado 普拉多 · Retiro 丽池公园 · Reina Sofía 索菲亚王后艺术中心 · 最后晚餐", tone: "gold", markdown: section("# 10/8｜Prado", "# 🍴 Madrid 吃什么") },
   {
     id: "1009", date: "10.09", city: "马德里 → 北京 → 上海", title: "平安回家", detail: "午夜航班 · 北京联程 · 抵达虹桥", tone: "green",
     markdown: `# 10/9｜Madrid → 北京 → 上海
 
 **旅行最后一天的目标：留足机场和联程时间，平稳回家。**
+
+## 🧭 今日推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 10/8 20:30 | 回 Hostal Atocha Almudena Martín 取行李 | 最后检查护照、钱包和两段登机信息 |
+| **20:45–21:00** | Taxi 前往 Madrid-Barajas T1 | 最晚 21:00 动身；目标约 21:30 到机场 |
+| 21:30–23:50 | 值机、托运、安检、前往登机口 | 柜台确认行李是否直挂上海虹桥 |
+| 10/9 00:35 | **CA898 Madrid T1 → 北京首都 T3（A 级）** | 长途飞行 |
+| 17:35–19:30 | 北京首都 T3 国际转国内联程 | 按现场指引完成入境与转机，直接前往下一登机口 |
+| 19:30–21:50 | **CA1563 北京 → 上海虹桥（A 级）** | 抵达后取行李回家 |
+
+**餐饮：** 10/8 晚饭在 Atocha / Antón Martín 一带完成；机场只补水和 snack。
+**Plan B：** 去机场路况异常时让酒店协助叫车；北京段发生延误时立即联系 Air China 联程柜台，不自行改签或离开转机路线。
 
 ## ✈️ 00:35｜Madrid T1 → 北京首都 T3
 
