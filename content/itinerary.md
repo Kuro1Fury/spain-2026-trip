@@ -1237,7 +1237,9 @@ Cathedral 门票已包含。若要去，放在大教堂后、进入 Santa Cruz �
 -   陶瓷街区 / 陶瓷店
 -   从河对岸看 Sevilla 老城
 
-晚饭可以直接在 Triana 解决，饭后沿河看夜景再回 Centro。
+### 🍷 晚餐｜La Turruñuela Vinos y Tapas【已预订】
+
+当晚优先 / 已锁定 **La Turruñuela Vinos y Tapas**：**已预订（Barra，晚间时段）**。保留原有 Triana 行程，逛完后直接前往用餐；饭后沿河看夜景再回 Centro。
 
 ### C 级｜Las Setas 夜景
 
@@ -1289,13 +1291,16 @@ Judíos 一带 - 白墙小巷 - 小广场
 
 ### B 级｜Alcázar de los Reyes Cristianos（以当天开放为前提）
 
-10/4 是周日，冬季周日通常只开放到下午早段。Mezquita 出来后先判断：若当天正常开放、并能在 **13:15 前后到达入口**，就先参观 Alcázar、再吃午饭；若衔接不舒服就直接放弃，不牺牲 Mezquita 与 Judería。
+10/4 是周日，临近出发前再次核对开放时间。当天先按 **10:00 Mezquita → Judería → 13:30 午餐** 的已锁定动线执行；若午餐后仍能顺利衔接 Alcázar 就优先参观，否则直接放弃，不牺牲 Mezquita、Judería 与已订午餐。
 
 ## 午餐｜Córdoba 菜
 
-### 🍴 优先候选
+### 🍴 已锁定
 
--   **Bodegas Mezquita Céspedes** ------ 最稳妥
+-   **Bodegas Mezquita Céspedes【已预订 13:30】**
+
+### 备选（仅在已订餐厅无法执行时）
+
 -   **Casa Pepe de La Judería** ------ 想正式一点
 -   **La Esquinita de la Judería El Patio**
 -   **Taberna El Abanico Mezquita**
@@ -1468,14 +1473,17 @@ Plaza de España → María Luisa Park → Alcázar
 
 -   **Restaurante De Triana**
 -   **Bar Triana**
--   **La Turruñuela Vinos y Tapas**
+-   **La Turruñuela Vinos y Tapas** —— 已订 10/3，Barra
 -   **Turuleta Triana**
 
 ## Córdoba｜Mezquita / Judería
 
-### ⭐ 优先
+### ⭐ 已锁定
 
--   **Bodegas Mezquita Céspedes**
+-   **Bodegas Mezquita Céspedes** —— 已订 10/4 13:30
+
+### 备选
+
 -   **Casa Pepe de La Judería**
 -   **La Esquinita de la Judería El Patio**
 
