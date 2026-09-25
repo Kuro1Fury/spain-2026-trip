@@ -143,7 +143,8 @@
 |---|---:|---|---|
 | 9/28 | **10:15** | Casa Batlló · Platinum | ✅ |
 | 9/28 | **16:00** | La Pedrera · Essential | ✅ |
-| 9/29 | **10:30** | Park Güell | ✅ |
+| 9/29 | **08:45 / 19:10** | Moventis / SARFA｜Barcelona ↔ Tossa de Mar（Plan A） | ✅ 往返已购 |
+| 9/29 | **10:30** | Park Güell（Plan B） | ✅ |
 | 9/30 | **13:00 Escolania** | Montserrat 完整套票 | ✅ 已订；Holy Image **15:30+** |
 | 10/1 | **09:30** | Sagrada Família | ✅ |
 | 10/1 | **09:45** | Sagrada Família Towers | ✅ |
@@ -403,7 +404,8 @@ Madrid T1 办理 CA898 时：
 
 - [ ] Casa Batlló
 - [ ] La Pedrera
-- [ ] Park Güell
+- [ ] 9/29 Tossa de Mar 往返巴士票离线保存（Plan A）
+- [ ] Park Güell 电子票离线保存（Plan B）
 - [ ] Montserrat 完整套票（含 FGC + Rack Railway + Basilica / Holy Image / Escolania）
 - [ ] Sagrada Família + Tower
 - [ ] Bienal
@@ -417,7 +419,7 @@ Madrid T1 办理 CA898 时：
 
 ## 出发前 3–7 天
 
-- [ ] Barcelona 天气：重点 9/29 Park Güell、9/30 Montserrat
+- [ ] Barcelona / Costa Brava 天气：9/29 决定 Tossa Plan A 或 Barcelona Plan B
 - [ ] Sevilla 天气：重点 10/5 Plaza de España / María Luisa Park
 - [ ] Córdoba 10/4 各景点周日最终开放时间
 - [ ] Madrid 10/6 Debod 日落天气
@@ -459,7 +461,8 @@ Madrid T1 办理 CA898 时：
   ------ ------------------------ ------------------ ---------
   9/28   Casa Batlló · Platinum            **10:15** ✅ 已订
   9/28   La Pedrera · Essential            **16:00** ✅ 已订
-  9/29   Park Güell                        **10:30** ✅ 已订
+  9/29   Tossa de Mar 往返巴士（Plan A）  **08:45 / 19:10** ✅ 已订
+  9/29   Park Güell（Plan B）              **10:30** ✅ 已订
   9/30   Montserrat 完整套票          **13:00 Escolania** ✅ 已订
   10/1   Sagrada Família                   **09:30** ✅ 已订
   10/1   Sagrada Família Towers            **09:45** ✅ 已订
@@ -478,7 +481,7 @@ Madrid T1 办理 CA898 时：
 
 -   **9/27｜老 Barcelona**：Gothic Quarter / Born / 海边
 -   **9/28｜高迪住宅**：Passeig de Gràcia → Gràcia
--   **9/29｜高迪公园 + 城市景观**：Park Güell → Gràcia → Bunkers
+-   **9/29｜双 Plan**：天气好去 Tossa de Mar 全天；否则留在 Barcelona，走 Park Güell → Gràcia → Bunkers
 -   **9/30｜自然一日游**：Montserrat
 -   **10/1｜高迪巅峰 + 山城视角**：Sagrada Família → Sant Pau → Tibidabo（状态好才去）
 -   **10/2｜移动**：Barcelona → Sevilla
@@ -669,12 +672,49 @@ Gràcia，**这一天尽量全程走路**。
 
 ------------------------------------------------------------------------
 
-# 9/29｜Park Güell + Gràcia
+# 9/29｜Barcelona / Tossa de Mar｜双 Plan
+
+**💡 今日策略：出发前按海边天气与能见度二选一。Plan A 是已购往返巴士的 Tossa de Mar 全天；Plan B 完整保留 Barcelona 的 Park Güell + Gràcia 行程。两套不要混搭。**
+
+## ☀️ Plan A｜天气好：Tossa de Mar 全天
+
+**📍活动区域：Barcelona Estació del Nord → Tossa de Mar → Platja Gran → Vila Vella → Es Codolar → Camí de Ronda → Tossa 汽车站 → Barcelona**
+
+### 🎟️ 已购买｜Moventis / SARFA 往返巴士
+
+-   去程：**08:45 Barcelona, Estació del Nord → 10:05 Tossa de Mar**
+-   回程：**19:10 Tossa de Mar → 20:30 Barcelona, Estació del Nord**
+-   单程：**1 小时 20 分**
+-   订单总价：**€29.50**
+-   **不加入 Blanes。**
+
+### 🧭 Plan A 推荐动线
+
+| 时间 | 怎么走 | 目标与优先级 |
+|---|---|---|
+| 06:50–07:30 | 酒店附近简单早餐，带水、防晒和薄外套 | 不排 brunch；两张巴士票提前离线保存 |
+| **07:45–07:55** | 从 NH Barcelona Eixample 出发，**Taxi 直达 Estació del Nord（北站）** 最稳妥 | 最晚 08:00 动身，目标 08:15 左右到站 |
+| 08:45–10:05 | **Moventis / SARFA 巴士：Barcelona → Tossa de Mar（A 级）** | 准点上车；单程 1h20 |
+| 10:05–10:30 | 从 Tossa 汽车站步行到 Platja Gran（大海滩） | 先看海岸全景，再进入古城 |
+| 10:30–12:45 | **Platja Gran（大海滩）→ Vila Vella（老城堡区）→ 老城 / 城墙 → Far de Tossa（灯塔方向）** | 当天核心主线；石路和坡道慢慢走 |
+| 12:45–13:15 | 从城墙 / 灯塔方向下行到 Es Codolar（科多拉尔小海滩） | 不赶路，留出拍照和休息时间 |
+| 13:15–14:45 | 老城或海边午餐 | 不追网红店，优先能坐下、节奏稳的餐厅 |
+| 14:45–16:45 | **Camí de Ronda（海岸步道）适量步行** | 走到体力与路况合适的位置就折返，不做长距离徒步 |
+| 16:45–18:20 | 海边 / 镇上 café、散步、休息 | 留足回车站缓冲，不再加 Blanes 或其他城镇 |
+| **18:20–18:45** | 从海边或镇中心步行返回 Tossa 汽车站 | **18:45 左右回到车站**，不要卡点 |
+| 19:10–20:30 | **Moventis / SARFA 巴士：Tossa de Mar → Barcelona（A 级）** | 返回 Estació del Nord |
+| 20:30 后 | Estació del Nord → Taxi / 地铁回酒店附近晚餐 | 不再安排景点 |
+
+**午餐备选：** Vila Vella / Platja Gran 周边海景餐厅，或镇中心简单菜单；以不用久等为优先。
+**晚餐备选：** 回 Barcelona 后在酒店附近吃；LOKAL BAR、ABANIC 或顺路 tapas 均可。
+**Plan A 天气降级：** 若海边风大、步道湿滑或体力不足，保留 **Platja Gran → Vila Vella → 城墙 / 灯塔 → Es Codolar**，取消 Camí de Ronda，把下午改为镇上 café 与海边休息。
+
+## 🏙️ Plan B｜留在 Barcelona：Park Güell + Gràcia
 
 **📍活动区域：Park Güell → Gràcia → Turó de la Rovira / Bunkers del Carmel**\
-**💡 今日策略：上午高迪，中午和下午留给 Gràcia；天气与体力正常时，傍晚去 Bunkers 看城市。**
+**适用：海边天气不理想、能见度差，或不想做全天往返时。以下保留原有 Barcelona 行程。**
 
-## 🧭 今日推荐动线
+### 🧭 Plan B 推荐动线
 
 | 时间 | 怎么走 | 目标与优先级 |
 |---|---|---|
@@ -687,18 +727,6 @@ Gràcia，**这一天尽量全程走路**。
 | **17:15 左右做决定** | 天气与体力好：Taxi / 公交去 Turó de la Rovira / Bunkers del Carmel（罗维拉山 / 卡梅尔地堡）；否则留在 Gràcia | 不要拖到遗址区临关前才出发 |
 | 19:00 后 | Gràcia 或回 Eixample 晚餐 | Bunkers 取消时也不补跨区项目 |
 
-**午餐备选：** La Pubilla、Taverna El Glop；想快吃可选 Restaurant La Salut。
-**晚餐备选：** La Pubilla、Taverna El Glop、KILTRO；Con Gracia 仅在确认可接待单人且完成预约时考虑。
-**Plan B：** Park Güell 按票面去但缩短停留；取消 Bunkers，下午改成 Gràcia café、shopping 或室内项目。
-
-## 上午｜Park Güell
-
-### 🍳 早餐
-
-今天不需要专程 brunch。
-
-优先： - 住宿附近 café - 简单咖啡 + 面包 / pastry
-
 ### 🎟️ 10:30｜Park Güell ✅
 
 -   建议 10:00 左右到附近。
@@ -706,60 +734,17 @@ Gràcia，**这一天尽量全程走路**。
 -   重点：Monumental Zone、高迪建筑元素、长椅、城市景观。
 -   不追求把每条路都走完。
 
-## 中午｜下山到 Gràcia
+### 🍴 午餐 / 晚餐备选
 
-### 🍴 午餐备选
+午餐优先 **La Pubilla**、**Taverna El Glop**；想在公园附近较快解决可选 Restaurant La Salut。
+晚餐可选 La Pubilla、Taverna El Glop、KILTRO；Con Gracia 仅在确认可接待单人且完成预约时考虑。
 
-**⭐ La Pubilla** --- Catalan\
-**⭐ Taverna El Glop** --- Mediterranean / Catalan\
-- Restaurant La Salut --- 想在公园附近较快解决时
+### 🌧️ Plan B 的坏天气收缩版
 
-> 原则：**不要在 Park Güell 门口为了方便随便吃一顿贵游客餐。** 下到
-> Gràcia 再吃。
+如果只是小雨，Park Güell 按票面去但缩短停留；如果天气明显恶劣，取消 Bunkers，下午改成 Gràcia café、shopping 或室内项目。
+去 Park Güell 可用地铁 / 公交；公园出来后顺势往 Gràcia 下山，不要横穿城市。
 
-## 下午｜Gràcia 慢游
-
-可以逛： - Plaça del Sol - Plaça de la Virreina - Carrer de Verdi -
-小店 - café - vermut bar
-
-这几个小时虽然行程表上只有"Gràcia"，实际很容易逛一个下午。
-
-### ☕ 休息
-
-看到喜欢的 café 就坐，不需要追特定网红店。
-
-## 傍晚｜B 级强备选：Turó de la Rovira / Bunkers del Carmel
-
-完成 Gràcia 午饭和慢逛后，若天气正常、体力也正常，建议傍晚去 **Turó de la Rovira / Bunkers del Carmel**。
-
--   它从原来的“二选一”升级为 **B 级强备选**。
--   重点是城市全景和傍晚光线，不追求长时间停留。
--   9/29 仍执行 9 月访问时段；考古遗址区域目前 **19:30 关闭**，不要把“卡最后一分钟进场”当计划。
--   如果下雨、能见度差或当天已经累，就直接砍，不用补偿性改去别处。
-
-## 晚上｜按最终落点吃饭
-
-### 🍷 晚餐
-
--   La Pubilla
--   Taverna El Glop
--   KILTRO
--   Con Gracia（如果想把正式晚餐放今天）
-
-> **Sant Pau 不放在今天，也不再与 Bunkers 二选一。** Sant Pau 留给 10/1，和 Sagrada Família 沿 Avinguda de Gaudí 顺路串联。
-
-### 🌧️ Plan B
-
-Park Güell 很吃天气。
-
-如果只是小雨：雨具 + 正常去。\
-如果天气明显恶劣：优先保留票面安排，但减少公园停留；下午改室内 café /
-museum / shopping。
-
-### 🚇 交通
-
-去 Park Güell 可用地铁/公交；公园出来后**顺势往 Gràcia
-下山**，不要横穿城市。
+> **Sant Pau 不放在今天。** Sant Pau 留给 10/1，和 Sagrada Família 沿 Avinguda de Gaudí 顺路串联。
 
 ------------------------------------------------------------------------
 
@@ -1084,7 +1069,7 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 -   不需要把 Barcelona 每个博物馆都看一遍
 -   不需要每顿饭都吃网红店
 -   不需要每天安排 rooftop
--   不需要在 9/29 把 Bunkers 和 Sant Pau 塞在同一天
+-   9/29 不混搭两套 Plan；选 Tossa 就不再塞 Park Güell / Bunkers，选 Barcelona 就不去海岸
 -   Montserrat 不需要硬核徒步
 -   10/2 不需要"最后再看一个景点"
 
@@ -1094,9 +1079,9 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 
 ## 最吃天气
 
-1.  **Montserrat**
-2.  **Park Güell**
-3.  Bunkers / 海边
+1.  **9/29 Tossa de Mar / Barcelona 双 Plan 决策**
+2.  **Montserrat**
+3.  Park Güell / Bunkers（仅 Plan B）
 
 ## 基本不怕天气
 
@@ -1106,7 +1091,7 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 -   Sant Pau 室内部分
 -   Museums
 
-临近出发时，重点看 **9/29 和 9/30** 的天气。
+临近出发时，重点看 **9/29 Tossa de Mar 海边风雨与能见度**，以及 **9/30 Montserrat 山区天气**。
 
 ------------------------------------------------------------------------
 
@@ -1143,11 +1128,12 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 # ⏳ 出发前待办
 
 -   [x] Montserrat 9/30 完整套票已购买并离线保存
--   [ ] 确认 Park Güell 电子票已经离线保存
+-   [ ] Tossa de Mar 往返巴士票已经离线保存
+-   [ ] 确认 Park Güell 电子票已经离线保存（Plan B）
 -   [ ] Casa Batlló / La Pedrera / Sagrada Família 票全部下载
 -   [ ] 想吃 Con Gracia 的话提前预约
 -   [ ] 出发前一周复核餐厅营业时间
--   [ ] 出发前 3--5 天重点看 9/29 Park Güell 和 9/30 Montserrat 天气
+-   [ ] 出发前 3--5 天重点看 9/29 Tossa / Barcelona 双 Plan 和 9/30 Montserrat 天气
 -   [ ] 确认 10/2 FR1165 航站楼和行李规则
 -   [ ] 最终确认去 BCN Airport 的方式和出发时间
 
@@ -1155,7 +1141,7 @@ Sagrada Família → Sant Pau 沿 Avinguda de Gaudí **步行非常顺**。
 
 # 一句话版
 
-**9/27 老城 + 海边（Montjuïc 仅 C 级）→ 9/28 两栋高迪住宅 + Gràcia → 9/29 Park Güell + Gràcia + Bunkers → 9/30
+**9/27 老城 + 海边（Montjuïc 仅 C 级）→ 9/28 两栋高迪住宅 + Gràcia → 9/29 天气好 Tossa de Mar / 否则 Park Güell + Gràcia + Bunkers → 9/30
 Montserrat → 10/1 圣家堂 + Sant Pau + Tibidabo（状态好才去）→ 10/2 飞 Sevilla。**
 
 这版的重点不是"少玩"，而是

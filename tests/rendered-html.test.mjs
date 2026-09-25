@@ -63,6 +63,8 @@ test("public build contains all quick links but no identity data", async () => {
   assert.match(output, /1jyywswvqEm0LfKqn7EufmUVsMDZE0G5y/);
   assert.match(output, /1DvGcWF3irX6jfdkiiAfgoDL72GkWg1d1/);
   assert.match(output, /1Un1jBEMfBDCMvYqtsz_kuGl0n1rvEHh6/);
+  assert.match(output, /1QlyFqhgLI5Qm3mz39b7WKyv1sOjHCJYC/);
+  assert.match(output, /1ktu9ko4bkZ1rKYIHjgTPOr-BwqYm_rEb/);
   assert.match(output, /10DXUPjXP4_xF7f-HbUhxmgaZGlPucI1E/);
   assert.match(output, /12ka8nWZ1WYeseKwx0Ay4JXGjOFhCU0ty/);
   assert.doesNotMatch(output, /notion\.so|app\.notion\.com/i);
@@ -75,6 +77,12 @@ test("daily sections stop at the next day", async () => {
   const barcelonaArrival = extractSection(markdown, "# 9/27｜抵达日", "# 9/28｜高迪住宅日");
   assert.match(barcelonaArrival, /Gothic Quarter/);
   assert.doesNotMatch(barcelonaArrival, /Casa Batlló · Platinum/);
+
+  const tossaDay = extractSection(markdown, "# 9/29｜Barcelona / Tossa de Mar", "# 9/30｜Montserrat");
+  assert.match(tossaDay, /Plan A[^]*08:45[^]*10:05[^]*19:10[^]*20:30/);
+  assert.match(tossaDay, /Platja Gran[^]*Vila Vella[^]*Es Codolar[^]*Camí de Ronda/);
+  assert.match(tossaDay, /Plan B[^]*Park Güell[^]*Gràcia/);
+  assert.match(tossaDay, /不加入 Blanes/);
 
   const cathedralDay = extractSection(markdown, "# 10/3｜Cathedral", "# 10/4｜Córdoba 一日游");
   assert.match(cathedralDay, /Sevilla Cathedral \+ Giralda/);

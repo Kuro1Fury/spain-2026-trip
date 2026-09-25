@@ -60,8 +60,8 @@ const days: Array<{
 中转时间 **1 小时 55 分钟**。抵达后直接按“国际转机 / Transfer”标识行动，不在航站楼内停留或购物。`,
   },
   { id: "0927", date: "09.27", city: "北京 → 巴塞罗那", title: "抵达地中海", detail: "Gothic 哥特区 · El Born 博恩区 · 海边", tone: "coral", markdown: section("# 9/27｜抵达日：老城 + 海边", "# 9/28｜高迪住宅日") },
-  { id: "0928", date: "09.28", city: "巴塞罗那", title: "现代主义建筑日", detail: "Casa Batlló 巴特罗之家 · La Pedrera 米拉之家 · Gràcia 格拉西亚", tone: "coral", markdown: section("# 9/28｜高迪住宅日", "# 9/29｜Park Güell") },
-  { id: "0929", date: "09.29", city: "巴塞罗那", title: "高迪的城市花园", detail: "Park Güell 古埃尔公园 · Gràcia 格拉西亚 · Bunkers 地堡", tone: "green", markdown: section("# 9/29｜Park Güell", "# 9/30｜Montserrat") },
+  { id: "0928", date: "09.28", city: "巴塞罗那", title: "现代主义建筑日", detail: "Casa Batlló 巴特罗之家 · La Pedrera 米拉之家 · Gràcia 格拉西亚", tone: "coral", markdown: section("# 9/28｜高迪住宅日", "# 9/29｜Barcelona / Tossa de Mar") },
+  { id: "0929", date: "09.29", city: "巴塞罗那 / 滨海托萨", title: "海岸古城或高迪花园", detail: "Plan A Tossa de Mar 滨海托萨 · Plan B Park Güell 古埃尔公园", tone: "green", markdown: section("# 9/29｜Barcelona / Tossa de Mar", "# 9/30｜Montserrat") },
   { id: "0930", date: "09.30", city: "蒙塞拉特", title: "山间一日", detail: "Montserrat 蒙塞拉特 · 修道院 · 黑面圣母像 · 山景", tone: "sand", markdown: section("# 9/30｜Montserrat 一日游", "# 10/1｜Sagrada Família") },
   { id: "1001", date: "10.01", city: "巴塞罗那", title: "高迪巅峰", detail: "Sagrada Família 圣家堂 · Sant Pau 圣保罗建筑群 · Tibidabo 蒂比达博山", tone: "blue", markdown: section("# 10/1｜Sagrada Família", "# 10/2｜Barcelona → Sevilla") },
   {
@@ -143,6 +143,8 @@ const ticketItems = [
 ];
 
 const transitItems = [
+  { label: "0929 Barcelona → Tossa de Mar 巴士", url: "https://drive.google.com/file/d/1QlyFqhgLI5Qm3mz39b7WKyv1sOjHCJYC/view?usp=drive_link" },
+  { label: "0929 Tossa de Mar → Barcelona 巴士", url: "https://drive.google.com/file/d/1ktu9ko4bkZ1rKYIHjgTPOr-BwqYm_rEb/view?usp=drive_link" },
   { label: "巴塞罗那 → 塞维利亚航班", url: "https://drive.google.com/file/d/11BGMvU3ugx-aCqkniIaoWjzbgmQ81D45/view?usp=sharing" },
   { label: "科尔多瓦电子车票", url: "https://drive.google.com/file/d/1vHTHNFYFcmmTFn5MLUruEIs0RtzcdWUB/view?usp=sharing" },
   { label: "塞维利亚 → 马德里车票", url: "https://drive.google.com/file/d/1d5ePe36ktZnEUG0vwUoi-epRZIJ1oj-M/view?usp=sharing" },
@@ -280,7 +282,7 @@ const outline = [
       ["barcelona", "城市总览", "# PART A｜Barcelona 详细攻略"],
       ["day-0927", "9/27 抵达日", "# 9/27｜抵达日"],
       ["day-0928", "9/28 高迪住宅", "# 9/28｜高迪住宅日"],
-      ["day-0929", "9/29 Park Güell", "# 9/29｜Park Güell"],
+      ["day-0929", "9/29 Tossa / Park Güell", "# 9/29｜Barcelona / Tossa de Mar"],
       ["day-0930", "9/30 Montserrat", "# 9/30｜Montserrat"],
       ["day-1001", "10/1 圣家堂", "# 10/1｜Sagrada Família"],
       ["day-1002-bcn", "10/2 前往 Sevilla", "# 10/2｜Barcelona → Sevilla"],
